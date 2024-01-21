@@ -1,0 +1,619 @@
+{
+  "experiments": [
+    {
+      "id": "new_experiment",
+      "name": "New experiment",
+      "artifactLocation": "/",
+      "lastUpdateTime": 1705594509037,
+      "creationTime": 1705594509037,
+      "tags": [],
+      "lifecycleStage": "active"
+    }
+  ],
+  "runs": [
+    {
+      "info": {
+        "experimentId": "new_experiment",
+        "runId": "2024_01_16T17_19_53",
+        "artifactUri": "//2024_01_16T17_19_53/artifacts",
+        "runUuid": "2024_01_16T17_19_53",
+        "startTime": 1705425593379,
+        "endTime": 1705427970962,
+        "status": "FINISHED",
+        "userId": "adrahat.neub@gmail.com",
+        "lifecycleStage": "active"
+      },
+      "data": {
+        "metrics": [
+          {
+            "key": "accuracy",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.876169152403353
+          },
+          {
+            "key": "accuracystd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.0026928343691874903
+          },
+          {
+            "key": "auc",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.9157228967684923
+          },
+          {
+            "key": "aucstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.004353199244276904
+          },
+          {
+            "key": "averagePrecision",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.53989432959867
+          },
+          {
+            "key": "averagePrecisionstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.013856409476572216
+          },
+          {
+            "key": "calibrationLoss",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.013525598416255951
+          },
+          {
+            "key": "calibrationLossstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.0010973843505995274
+          },
+          {
+            "key": "f1",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.5862523036017822
+          },
+          {
+            "key": "f1std",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.0068745800263020655
+          },
+          {
+            "key": "hammingLoss",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.12383084759664693
+          },
+          {
+            "key": "hammingLossstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.0026928343691874903
+          },
+          {
+            "key": "lift",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 2.410445992995687
+          },
+          {
+            "key": "liftstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.020654755633201866
+          },
+          {
+            "key": "logLoss",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.22023813863395114
+          },
+          {
+            "key": "logLossstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.00777859225198852
+          },
+          {
+            "key": "mcc",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.5346115282553441
+          },
+          {
+            "key": "mccstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.008344677741810132
+          },
+          {
+            "key": "precision",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.48249350630217125
+          },
+          {
+            "key": "precisionstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.009472326854251742
+          },
+          {
+            "key": "recall",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.7473758203229531
+          },
+          {
+            "key": "recallstd",
+            "timestamp": 1705427970962,
+            "step": 0,
+            "value": 0.015816276540435357
+          }
+        ],
+        "runParams": [],
+        "runTags": [
+          {
+            "key": "dku-ext.analysisId",
+            "value": "mPztR0A9"
+          },
+          {
+            "key": "dku-ext.displayName",
+            "value": "SVM (model)"
+          },
+          {
+            "key": "dku-ext.dssUser",
+            "value": "adrahat.neub@gmail.com"
+          },
+          {
+            "key": "dku-ext.fullModelId",
+            "value": "A-DSP_PROJECT-mPztR0A9-p7oNTGkM-s1-pp3-m1"
+          },
+          {
+            "key": "dku-ext.git.branch",
+            "value": "master"
+          },
+          {
+            "key": "dku-ext.git.commit",
+            "value": "268ab9af434c884b641c4ea645f877c741622958"
+          },
+          {
+            "key": "dku-ext.git.message",
+            "value": "Updated summary for model evaluation store DSP_PROJECT.svm_evaluation (id: WU5umzNm)"
+          },
+          {
+            "key": "dku-ext.mlTaskType",
+            "value": "PREDICTION"
+          },
+          {
+            "key": "dku-ext.origin",
+            "value": "analysis"
+          },
+          {
+            "key": "dku-ext.predictionType",
+            "value": "BINARY_CLASSIFICATION"
+          },
+          {
+            "key": "dku-ext.target",
+            "value": "predicted_value"
+          },
+          {
+            "key": "dku-ext.targetClasses",
+            "value": "[\"false\",\"true\"]"
+          }
+        ],
+        "models": []
+      }
+    },
+    {
+      "info": {
+        "experimentId": "new_experiment",
+        "runId": "2024_01_16T17_18_36_B91",
+        "artifactUri": "//2024_01_16T17_18_36_B91/artifacts",
+        "runUuid": "2024_01_16T17_18_36_B91",
+        "startTime": 1705425516365,
+        "endTime": 1705425582376,
+        "status": "FINISHED",
+        "userId": "adrahat.neub@gmail.com",
+        "lifecycleStage": "active"
+      },
+      "data": {
+        "metrics": [
+          {
+            "key": "accuracy",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.8525025528816549
+          },
+          {
+            "key": "accuracystd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 9.365088834973825E-4
+          },
+          {
+            "key": "auc",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.8950692677751023
+          },
+          {
+            "key": "aucstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.0046764250036855975
+          },
+          {
+            "key": "averagePrecision",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.5003071465761625
+          },
+          {
+            "key": "averagePrecisionstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.008051567592359688
+          },
+          {
+            "key": "calibrationLoss",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.20469267886629067
+          },
+          {
+            "key": "calibrationLossstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.00497097533931446
+          },
+          {
+            "key": "f1",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.543195232814287
+          },
+          {
+            "key": "f1std",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.01106123210671713
+          },
+          {
+            "key": "hammingLoss",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.14749744711834514
+          },
+          {
+            "key": "hammingLossstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 9.365088834973825E-4
+          },
+          {
+            "key": "lift",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 2.335708370886011
+          },
+          {
+            "key": "liftstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.015821830442568338
+          },
+          {
+            "key": "logLoss",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.4503981722140641
+          },
+          {
+            "key": "logLossstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.007437147636394188
+          },
+          {
+            "key": "mcc",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.48887297720250195
+          },
+          {
+            "key": "mccstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.010254391315343381
+          },
+          {
+            "key": "precision",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.426859756735184
+          },
+          {
+            "key": "precisionstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.012416707859708102
+          },
+          {
+            "key": "recall",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.7472420332360189
+          },
+          {
+            "key": "recallstd",
+            "timestamp": 1705425582376,
+            "step": 0,
+            "value": 0.014808078409830018
+          }
+        ],
+        "runParams": [],
+        "runTags": [
+          {
+            "key": "dku-ext.analysisId",
+            "value": "mPztR0A9"
+          },
+          {
+            "key": "dku-ext.displayName",
+            "value": "Logistic Regression (model)"
+          },
+          {
+            "key": "dku-ext.dssUser",
+            "value": "adrahat.neub@gmail.com"
+          },
+          {
+            "key": "dku-ext.fullModelId",
+            "value": "A-DSP_PROJECT-mPztR0A9-p7oNTGkM-s1-pp2-m1"
+          },
+          {
+            "key": "dku-ext.git.branch",
+            "value": "master"
+          },
+          {
+            "key": "dku-ext.git.commit",
+            "value": "268ab9af434c884b641c4ea645f877c741622958"
+          },
+          {
+            "key": "dku-ext.git.message",
+            "value": "Updated summary for model evaluation store DSP_PROJECT.svm_evaluation (id: WU5umzNm)"
+          },
+          {
+            "key": "dku-ext.mlTaskType",
+            "value": "PREDICTION"
+          },
+          {
+            "key": "dku-ext.origin",
+            "value": "analysis"
+          },
+          {
+            "key": "dku-ext.predictionType",
+            "value": "BINARY_CLASSIFICATION"
+          },
+          {
+            "key": "dku-ext.target",
+            "value": "predicted_value"
+          },
+          {
+            "key": "dku-ext.targetClasses",
+            "value": "[\"false\",\"true\"]"
+          }
+        ],
+        "models": []
+      }
+    },
+    {
+      "info": {
+        "experimentId": "new_experiment",
+        "runId": "2024_01_16T17_18_36",
+        "artifactUri": "//2024_01_16T17_18_36/artifacts",
+        "runUuid": "2024_01_16T17_18_36",
+        "startTime": 1705425516325,
+        "endTime": 1705425609277,
+        "status": "FINISHED",
+        "userId": "adrahat.neub@gmail.com",
+        "lifecycleStage": "active"
+      },
+      "data": {
+        "metrics": [
+          {
+            "key": "accuracy",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.8707343338183247
+          },
+          {
+            "key": "accuracystd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.0015583123190851071
+          },
+          {
+            "key": "auc",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.9030981955685302
+          },
+          {
+            "key": "aucstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.004520631134790844
+          },
+          {
+            "key": "averagePrecision",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.5101513594084931
+          },
+          {
+            "key": "averagePrecisionstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.02119209400438371
+          },
+          {
+            "key": "calibrationLoss",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.14679263620514832
+          },
+          {
+            "key": "calibrationLossstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.004344973992583858
+          },
+          {
+            "key": "f1",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.541486279637884
+          },
+          {
+            "key": "f1std",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.013661124596990277
+          },
+          {
+            "key": "hammingLoss",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.1292656661816753
+          },
+          {
+            "key": "hammingLossstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.0015583123190851071
+          },
+          {
+            "key": "lift",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 2.3920951284938696
+          },
+          {
+            "key": "liftstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.022896906122558233
+          },
+          {
+            "key": "logLoss",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.3287519621284969
+          },
+          {
+            "key": "logLossstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.0028338258654165708
+          },
+          {
+            "key": "mcc",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.4778748024419768
+          },
+          {
+            "key": "mccstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.013060921628626865
+          },
+          {
+            "key": "precision",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.46406661087175305
+          },
+          {
+            "key": "precisionstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.016245590740294014
+          },
+          {
+            "key": "recall",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.6504626450051707
+          },
+          {
+            "key": "recallstd",
+            "timestamp": 1705425609277,
+            "step": 0,
+            "value": 0.01666706642603219
+          }
+        ],
+        "runParams": [],
+        "runTags": [
+          {
+            "key": "dku-ext.analysisId",
+            "value": "mPztR0A9"
+          },
+          {
+            "key": "dku-ext.displayName",
+            "value": "Random forest (model)"
+          },
+          {
+            "key": "dku-ext.dssUser",
+            "value": "adrahat.neub@gmail.com"
+          },
+          {
+            "key": "dku-ext.fullModelId",
+            "value": "A-DSP_PROJECT-mPztR0A9-p7oNTGkM-s1-pp1-m1"
+          },
+          {
+            "key": "dku-ext.git.branch",
+            "value": "master"
+          },
+          {
+            "key": "dku-ext.git.commit",
+            "value": "268ab9af434c884b641c4ea645f877c741622958"
+          },
+          {
+            "key": "dku-ext.git.message",
+            "value": "Updated summary for model evaluation store DSP_PROJECT.svm_evaluation (id: WU5umzNm)"
+          },
+          {
+            "key": "dku-ext.mlTaskType",
+            "value": "PREDICTION"
+          },
+          {
+            "key": "dku-ext.origin",
+            "value": "analysis"
+          },
+          {
+            "key": "dku-ext.predictionType",
+            "value": "BINARY_CLASSIFICATION"
+          },
+          {
+            "key": "dku-ext.target",
+            "value": "predicted_value"
+          },
+          {
+            "key": "dku-ext.targetClasses",
+            "value": "[\"false\",\"true\"]"
+          }
+        ],
+        "models": []
+      }
+    }
+  ],
+  "models": []
+}

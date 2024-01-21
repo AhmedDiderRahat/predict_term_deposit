@@ -1,0 +1,111 @@
+[2024/01/18-19:18:29.844] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.prediction]  - [ct: 0] ******************************************
+[2024/01/18-19:18:29.845] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.prediction]  - [ct: 1] ** Start train session s2
+[2024/01/18-19:18:29.845] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.prediction]  - [ct: 1] ******************************************
+[2024/01/18-19:18:29.847] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.splits] T-p7oNTGkM - [ct: 3] Search for split: p=type=SPLIT_SINGLE_DATASET,split=RANDOM_KFOLD,folds=5,splitBeforePrepare=true,ds=train_data,sel=(method=full),r=0.8,s=1337 i=0cc982e0455e37987b481a20bb87538e-0
+[2024/01/18-19:18:29.849] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.data] T-p7oNTGkM - [ct: 5] Need to compute sampleId before checking memory cache
+[2024/01/18-19:18:29.850] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dip.shaker.runner] T-p7oNTGkM - [ct: 6] Script settings sampleMax=104857600 processedMax=-1
+[2024/01/18-19:18:29.850] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dip.shaker.runner] T-p7oNTGkM - [ct: 6] Processing with sampleMax=104857600 processedMax=524288000
+[2024/01/18-19:18:29.852] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dip.shaker.runner] T-p7oNTGkM - [ct: 8] Computed required sample id : 35603224c5110318abefd288760ff54e-NA-67d2d4a7bb9f68bd5a120c6956099c590--d751713988987e9331980363e24189ce
+[2024/01/18-19:18:29.853] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.shaker.cache] T-p7oNTGkM - Shaker MemoryCache get on dataset DSP_PROJECT.train_data key=ds=3cbdb59b309b61dbb8c069138029fb8b--scr=0b26d2fc61f1d63b72009779670503dc--samp=35603224c5110318abefd288760ff54e-NA-67d2d4a7bb9f68bd5a120c6956099c590--d751713988987e9331980363e24189ce: hit
+[2024/01/18-19:18:29.853] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 9] Column age meaning=LongMeaning fail=0
+[2024/01/18-19:18:29.854] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 10] Column job meaning=Text fail=0
+[2024/01/18-19:18:29.855] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 11] Column marital_status meaning=Text fail=0
+[2024/01/18-19:18:29.855] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 11] Column education meaning=Text fail=0
+[2024/01/18-19:18:29.856] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 12] Column credit_default meaning=Boolean fail=0
+[2024/01/18-19:18:29.856] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 12] Column balance meaning=LongMeaning fail=0
+[2024/01/18-19:18:29.857] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 13] Column housing meaning=Boolean fail=0
+[2024/01/18-19:18:29.857] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 13] Column loan meaning=Boolean fail=0
+[2024/01/18-19:18:29.858] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 14] Column contact meaning=Text fail=0
+[2024/01/18-19:18:29.858] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 14] Column day meaning=LongMeaning fail=0
+[2024/01/18-19:18:29.859] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 15] Column month meaning=Text fail=0
+[2024/01/18-19:18:29.859] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 15] Column campaign meaning=LongMeaning fail=0
+[2024/01/18-19:18:29.860] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 16] Column pdays meaning=LongMeaning fail=0
+[2024/01/18-19:18:29.860] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 16] Column previous meaning=LongMeaning fail=0
+[2024/01/18-19:18:29.861] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 17] Column poutcome meaning=Text fail=0
+[2024/01/18-19:18:29.862] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.shaker.schema] T-p7oNTGkM - [ct: 18] Column predicted_value meaning=Boolean fail=0
+[2024/01/18-19:18:29.863] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.datasets.bloblike] T-p7oNTGkM - [ct: 19] Enumerating blob-like dataset DSP_PROJECT.train_data prefix=
+[2024/01/18-19:18:29.863] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.datasets.fsbased] T-p7oNTGkM - [ct: 19] Building FS provider for dataset handler: DSP_PROJECT.train_data
+[2024/01/18-19:18:29.864] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.fs.s3] T-p7oNTGkM - [ct: 20] Created S3 FS provider bucket=gis-data-eu-west-3 effectivePath=/space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data from 'space-6334fb89-dku/node-9f1a3966' and '/managed-dss-data/DSP_PROJECT/train_data'
+[2024/01/18-19:18:29.865] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.datasets.fsbased] T-p7oNTGkM - [ct: 21] FS Provider built
+[2024/01/18-19:18:29.866] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.aws.credentials] T-p7oNTGkM - [ct: 22] AWS connection=dataiku-managed-storage authCtx=adrahat.neub@gmail.com assuming role=arn:aws:iam::538701811630:role/GIS/euwest3/dku/s3-space-6334fb89-dku-eu-west-3-dku
+[2024/01/18-19:18:29.866] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.aws.credentials] T-p7oNTGkM - [ct: 22] Credentials cache hit
+[2024/01/18-19:18:29.869] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.fs.s3] T-p7oNTGkM - [ct: 25] Bucket is in location eu-west-3
+[2024/01/18-19:18:29.870] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.fs.s3] T-p7oNTGkM - [ct: 26] Done create S3 client
+[2024/01/18-19:18:29.904] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.fs.s3] T-p7oNTGkM - [ct: 60] Start S3 Enumeration ON bucketPath=space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data/ prefix= fullPath=space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data/
+[2024/01/18-19:18:29.926] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.fs.s3] T-p7oNTGkM - Ignoring path /_SUCCESS
+[2024/01/18-19:18:29.927] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.fs.s3] T-p7oNTGkM - Ignoring path /_common_metadata
+[2024/01/18-19:18:29.928] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.fs.s3] T-p7oNTGkM - Ignoring path /_metadata
+[2024/01/18-19:18:29.928] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.fs.s3] T-p7oNTGkM - [ct: 84] S3 enumeration done, found 1 items, 203430 bytes
+[2024/01/18-19:18:29.929] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.input.push] T-p7oNTGkM - USTP: push selection.method=FULL records=100000 ratio=0.02 col=null
+[2024/01/18-19:18:29.930] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.formats.parquet] T-p7oNTGkM - [ct: 86] Run Parquet format extractor without limit
+[2024/01/18-19:18:29.932] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.aws.credentials] T-p7oNTGkM - [ct: 88] AWS connection=dataiku-managed-storage authCtx=adrahat.neub@gmail.com assuming role=arn:aws:iam::538701811630:role/GIS/euwest3/dku/s3-space-6334fb89-dku-eu-west-3-dku
+[2024/01/18-19:18:29.933] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.aws.credentials] T-p7oNTGkM - [ct: 89] Credentials cache hit
+[2024/01/18-19:18:29.934] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.datasets.s3] T-p7oNTGkM - [ct: 90] using S3 endpoint s3.eu-west-3.amazonaws.com
+[2024/01/18-19:18:29.935] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.fsproviders.hdfs] T-p7oNTGkM - [ct: 91] Build HDFSProvider conn=null cpr=s3a://gis-data-eu-west-3/space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data pWCR=/ crSA=s3a://gis-data-eu-west-3 crWSA=/space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data rpWSA=/space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data
+[2024/01/18-19:18:29.936] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.hadoop] T-p7oNTGkM - Initializing Hadoop FS with context UGI: dataiku_user (auth:PROXY) via dataiku (auth:SIMPLE) (login: dataiku (auth:SIMPLE)) rootPathURI=s3a://gis-data-eu-west-3
+[2024/01/18-19:18:29.949] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.hadoop] T-p7oNTGkM - Forcing fs.<scheme>.impl.disable.cache because the config might not be taken into account
+[2024/01/18-19:18:29.954] [FT-TrainWorkThread-0Gf6UPqK-1553253] [DEBUG] [dku.fsproviders.hdfs] T-p7oNTGkM - [ct: 110] Built Hadoop FS for: s3a://gis-data-eu-west-3 -> S3AFileSystem{uri=s3a://gis-data-eu-west-3, workingDir=s3a://gis-data-eu-west-3/user/dataiku_user, partSize=67108864, enableMultiObjectsDelete=true, maxKeys=5000, OpenFileSupport{changePolicy=ETagChangeDetectionPolicy mode=Server, defaultReadAhead=65536, defaultBufferSize=4096, defaultAsyncDrainThreshold=16000, defaultInputPolicy=default}, blockSize=33554432, multiPartThreshold=134217728, s3EncryptionAlgorithm='SSE_S3', blockFactory=org.apache.hadoop.fs.s3a.S3ADataBlocks$DiskBlockFactory@53490182, auditManager=Service ActiveAuditManagerS3A in state ActiveAuditManagerS3A: STARTED, auditor=LoggingAuditor{ID='8136ce61-a934-4230-aaa2-c2f56b772960', headerEnabled=true, rejectOutOfSpan=false, isMultipartUploadEnabled=true}}, authoritativePath=[], useListV1=false, magicCommitter=true, boundedExecutor=BlockingThreadPoolExecutorService{SemaphoredDelegatingExecutor{permitCount=160, available=160, waiting=0}, activeCount=0}, unboundedExecutor=java.util.concurrent.ThreadPoolExecutor@216be460[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], credentials=AWSCredentialProviderList[refcount= 1: [TemporaryAWSCredentialsProvider], delegation tokens=disabled, DirectoryMarkerRetention{policy='delete'}, instrumentation {S3AInstrumentation{}}, ClientSideEncryption=false}
+[2024/01/18-19:18:29.984] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.formats.parquet] T-p7oNTGkM - [ct: 140] Extracting Parquet input:/space-6334fb89-dku/node-9f1a3966/managed-dss-data/DSP_PROJECT/train_data/part-m-00000.snappy.parquet with ugi: dataiku_user (auth:PROXY) via dataiku (auth:SIMPLE)
+[2024/01/18-19:18:30.035] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [org.apache.hadoop.mapreduce.lib.input.FileInputFormat] T-p7oNTGkM - Total input files to process : 1
+[2024/01/18-19:18:30.036] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [org.apache.parquet.hadoop.ParquetInputFormat] T-p7oNTGkM - Total input paths to process : 1
+[2024/01/18-19:18:30.041] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.formats.parquet] T-p7oNTGkM - [ct: 197] Processing Hadoop split
+[2024/01/18-19:18:30.099] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [org.apache.hadoop.fs.s3a.S3AInputStream] T-p7oNTGkM - Switching to Random IO seek policy
+[2024/01/18-19:18:30.116] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] T-p7oNTGkM - Input Parquet MessageType: 
+message hive_schema {
+  optional int64 age;
+  optional binary job (UTF8);
+  optional binary marital_status (UTF8);
+  optional binary education (UTF8);
+  optional boolean credit_default;
+  optional int64 balance;
+  optional boolean housing;
+  optional boolean loan;
+  optional binary contact (UTF8);
+  optional int64 day;
+  optional binary month (UTF8);
+  optional int64 campaign;
+  optional int64 pdays;
+  optional int64 previous;
+  optional binary poutcome (UTF8);
+  optional boolean predicted_value;
+}
+
+[2024/01/18-19:18:30.116] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [com.dataiku.dip.input.formats.parquet.RowTupleConverter] T-p7oNTGkM - Detected Parquet flavor: HIVE
+[2024/01/18-19:18:30.117] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [org.apache.parquet.hadoop.InternalParquetRecordReader] T-p7oNTGkM - RecordReader initialized will read a total of 31648 records.
+[2024/01/18-19:18:30.118] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [org.apache.parquet.hadoop.InternalParquetRecordReader] T-p7oNTGkM - at row 0. reading next block
+[2024/01/18-19:18:30.140] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [org.apache.parquet.hadoop.InternalParquetRecordReader] T-p7oNTGkM - block read in memory in 22 ms. row count = 31648
+[2024/01/18-19:18:30.299] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.formats.parquet] T-p7oNTGkM - [ct: 455] Done processing Hadoop split, dssSplitRecords=31648
+[2024/01/18-19:18:30.300] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.formats.parquet] T-p7oNTGkM - [ct: 456] Done processing DSS stream, dssSplitRecords=31648 totalRecords=31648
+[2024/01/18-19:18:30.301] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.formats.parquet] T-p7oNTGkM - [ct: 457] Done processing DSS split, dssSplitRecords=31648 totalRecords=31648
+[2024/01/18-19:18:30.303] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.splits] T-p7oNTGkM - [ct: 459] Checking if splits are up to date. Policy: type=SPLIT_SINGLE_DATASET,split=RANDOM_KFOLD,folds=5,splitBeforePrepare=true,ds=train_data,sel=(method=full),r=0.8,s=1337, instance id: 0cc982e0455e37987b481a20bb87538e-0
+[2024/01/18-19:18:30.304] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.splits] T-p7oNTGkM - [ct: 460] Search for split: p=type=SPLIT_SINGLE_DATASET,split=RANDOM_KFOLD,folds=5,splitBeforePrepare=true,ds=train_data,sel=(method=full),r=0.8,s=1337 i=0cc982e0455e37987b481a20bb87538e-0
+[2024/01/18-19:18:30.306] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.splits] T-p7oNTGkM - [ct: 462] Search for split: p=type=SPLIT_SINGLE_DATASET,split=RANDOM_KFOLD,folds=5,splitBeforePrepare=true,ds=train_data,sel=(method=full),r=0.8,s=1337 i=0cc982e0455e37987b481a20bb87538e-0
+[2024/01/18-19:18:30.307] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.ml.python] T-p7oNTGkM - [ct: 463] Joining processing thread ...
+[2024/01/18-19:19:19.327] [FT-TrainWorkThread-0Gf6UPqK-1553253] [ERROR] [dku.analysis] T-p7oNTGkM - Failure while training main loop
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1257)
+	at java.lang.Thread.join(Thread.java:1331)
+	at com.dataiku.dip.analysis.ml.shared.PRNSTrainThread.join(PRNSTrainThread.java:251)
+	at com.dataiku.dip.analysis.ml.PythonMLTaskHandler.runTraining(PythonMLTaskHandler.java:103)
+	at com.dataiku.dip.analysis.ml.PythonMLTaskHandler.train(PythonMLTaskHandler.java:78)
+	at com.dataiku.dip.analysis.coreservices.PredictionService$TrainWorkThread.executeProcess(PredictionService.java:1882)
+	at com.dataiku.dip.analysis.coreservices.PredictionService$TrainWorkThread.execute(PredictionService.java:1912)
+	at com.dataiku.dip.futures.FutureThreadBase.run(FutureThreadBase.java:110)
+[2024/01/18-19:19:19.328] [FT-TrainWorkThread-0Gf6UPqK-1553253] [WARN] [dku.analysis.ml] T-p7oNTGkM - MTI file /data/dataiku/datadir/analysis-data/DSP_PROJECT/mPztR0A9/p7oNTGkM/sessions/s2/pp1/m1/train_info.json does not exist
+[2024/01/18-19:19:19.330] [FT-TrainWorkThread-0Gf6UPqK-1553253] [WARN] [dku.analysis.ml] T-p7oNTGkM - MTI file /data/dataiku/datadir/analysis-data/DSP_PROJECT/mPztR0A9/p7oNTGkM/sessions/s2/pp2/m1/train_info.json does not exist
+[2024/01/18-19:19:19.331] [FT-TrainWorkThread-0Gf6UPqK-1553253] [WARN] [dku.analysis.ml] T-p7oNTGkM - MTI file /data/dataiku/datadir/analysis-data/DSP_PROJECT/mPztR0A9/p7oNTGkM/sessions/s2/pp3/m1/train_info.json does not exist
+[2024/01/18-19:19:19.332] [FT-TrainWorkThread-0Gf6UPqK-1553253] [WARN] [dku.future.aborter] T-p7oNTGkM - No hook to pop. May have been popped already by an abort.
+[2024/01/18-19:19:19.332] [FT-TrainWorkThread-0Gf6UPqK-1553253] [ERROR] [dku.analysis.prediction] T-p7oNTGkM - Failed to train
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1257)
+	at java.lang.Thread.join(Thread.java:1331)
+	at com.dataiku.dip.analysis.ml.shared.PRNSTrainThread.join(PRNSTrainThread.java:251)
+	at com.dataiku.dip.analysis.ml.PythonMLTaskHandler.runTraining(PythonMLTaskHandler.java:103)
+	at com.dataiku.dip.analysis.ml.PythonMLTaskHandler.train(PythonMLTaskHandler.java:78)
+	at com.dataiku.dip.analysis.coreservices.PredictionService$TrainWorkThread.executeProcess(PredictionService.java:1882)
+	at com.dataiku.dip.analysis.coreservices.PredictionService$TrainWorkThread.execute(PredictionService.java:1912)
+	at com.dataiku.dip.futures.FutureThreadBase.run(FutureThreadBase.java:110)
+[2024/01/18-19:19:19.335] [FT-TrainWorkThread-0Gf6UPqK-1553253] [INFO] [dku.analysis.trainingdetails] T-p7oNTGkM - Publishing mltask-train-done reflected event
+[2024/01/18-19:19:19.336] [FT-TrainWorkThread-0Gf6UPqK-1553253] [WARN] [dku.future.aborter]  - No hook to pop. May have been popped already by an abort.

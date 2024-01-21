@@ -1,0 +1,33 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0,
+  "description": "",
+  "name": "Random forest (s1)",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "RANDOM_FOREST_CLASSIFICATION"
+    },
+    {
+      "key": "model:name",
+      "value": "Random forest (s1)"
+    }
+  ]
+}

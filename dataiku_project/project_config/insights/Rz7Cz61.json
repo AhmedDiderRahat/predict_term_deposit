@@ -1,0 +1,142 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "bivariate_header",
+      "yColumn": {
+        "name": "y",
+        "type": "CATEGORICAL"
+      },
+      "showMosaicPlot": true,
+      "showHistogram": true,
+      "showScatterPlot": false,
+      "showFrequencyTable": true,
+      "showBoxPlot": false,
+      "showSummary": false,
+      "xColumns": [
+        {
+          "name": "job",
+          "type": "CATEGORICAL"
+        }
+      ],
+      "cards": [
+        {
+          "type": "column_card",
+          "column": {
+            "name": "job",
+            "type": "CATEGORICAL"
+          },
+          "cards": [
+            {
+              "type": "bivariate_histogram",
+              "xBinningMode": "AUTO",
+              "yBinningMode": "AUTO",
+              "maxValuesX": 5,
+              "maxValuesY": 5,
+              "groupWithOthersX": true,
+              "groupWithOthersY": true,
+              "xCustomBinningBoundaries": [],
+              "yCustomBinningBoundaries": [],
+              "xColumn": {
+                "name": "job",
+                "type": "CATEGORICAL"
+              },
+              "yColumn": {
+                "name": "y",
+                "type": "CATEGORICAL"
+              },
+              "id": "dbc8BPY"
+            },
+            {
+              "type": "mosaic_plot",
+              "xBinningMode": "AUTO",
+              "yBinningMode": "AUTO",
+              "maxValuesX": 5,
+              "maxValuesY": 5,
+              "groupWithOthersX": true,
+              "groupWithOthersY": true,
+              "xCustomBinningBoundaries": [],
+              "yCustomBinningBoundaries": [],
+              "xColumn": {
+                "name": "job",
+                "type": "CATEGORICAL"
+              },
+              "yColumn": {
+                "name": "y",
+                "type": "CATEGORICAL"
+              },
+              "id": "RwDj4NN"
+            },
+            {
+              "type": "bivariate_frequency_table",
+              "xBinningMode": "AUTO",
+              "yBinningMode": "AUTO",
+              "maxValuesX": 5,
+              "maxValuesY": 5,
+              "groupWithOthersX": true,
+              "groupWithOthersY": true,
+              "xCustomBinningBoundaries": [],
+              "yCustomBinningBoundaries": [],
+              "xColumn": {
+                "name": "job",
+                "type": "CATEGORICAL"
+              },
+              "yColumn": {
+                "name": "y",
+                "type": "CATEGORICAL"
+              },
+              "id": "Ye3QpxS"
+            }
+          ],
+          "id": "X7Wmj05"
+        }
+      ],
+      "id": "lVUWjTS"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "marketing_campaigns_data",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": false,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1,
+        "seed": 1337
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": true,
+  "name": "Bivariate analysis on 1 variable ",
+  "dashboardCreationId": "5sIjlkz",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705089463577,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

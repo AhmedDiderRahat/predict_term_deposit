@@ -1,0 +1,96 @@
+{
+  "name": "basic_model",
+  "color": "#C82423",
+  "items": [
+    {
+      "objectId": "Exam_1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "data_preparation",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_data_preparation",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_data",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "test_data",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "split_data_preparation",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_UPDATED_LR",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "CYHiZYhO",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "LR_OUTCOME",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "MbpaLGai",
+      "objectType": "MODEL_EVALUATION_STORE"
+    },
+    {
+      "objectId": "evaluate_on_test_data_3",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_UPDATED_RF",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "yqEdWDmq",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "RF_OUTCOME",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "0EjRmtKy",
+      "objectType": "MODEL_EVALUATION_STORE"
+    },
+    {
+      "objectId": "evaluate_on_test_data_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "train_UPDATED_SVM",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Aui0JiTF",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "SVM_OUTCOME",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "50k4y9S2",
+      "objectType": "MODEL_EVALUATION_STORE"
+    },
+    {
+      "objectId": "evaluate_on_test_data",
+      "objectType": "RECIPE"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"categorical_histogram","histogram":{"filters":[{"type":"anum","column":"marital","values":["married"]},{"type":"anum","column":"marital","values":["single"]},{"type":"anum","column":"marital","values":["divorced"]}],"totalCount":45211,"counts":[27214,12790,5207]},"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

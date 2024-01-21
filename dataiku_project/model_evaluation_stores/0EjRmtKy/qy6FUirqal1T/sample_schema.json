@@ -1,0 +1,68 @@
+{
+    "columns": [
+        {
+            "name": "age",
+            "type": "double"
+        },
+        {
+            "name": "job",
+            "type": "string"
+        },
+        {
+            "name": "marital_status",
+            "type": "string"
+        },
+        {
+            "name": "education",
+            "type": "string"
+        },
+        {
+            "name": "credit_default",
+            "type": "string"
+        },
+        {
+            "name": "balance",
+            "type": "double"
+        },
+        {
+            "name": "housing",
+            "type": "string"
+        },
+        {
+            "name": "loan",
+            "type": "string"
+        },
+        {
+            "name": "contact",
+            "type": "string"
+        },
+        {
+            "name": "day",
+            "type": "double"
+        },
+        {
+            "name": "month",
+            "type": "string"
+        },
+        {
+            "name": "campaign",
+            "type": "double"
+        },
+        {
+            "name": "pdays",
+            "type": "bigint"
+        },
+        {
+            "name": "previous",
+            "type": "bigint"
+        },
+        {
+            "name": "poutcome",
+            "type": "string"
+        },
+        {
+            "name": "predicted_value",
+            "type": "string"
+        }
+    ]
+}

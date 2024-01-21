@@ -1,0 +1,46 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "sessionName": "model",
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.55,
+  "description": "",
+  "name": "Random forest (model)",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "RANDOM_FOREST_CLASSIFICATION"
+    },
+    {
+      "key": "model:name",
+      "value": "Random forest (model)"
+    },
+    {
+      "key": "model:session-name",
+      "value": "model"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-16T17:20:09.277+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-16T17:20:09.277+0000"
+    }
+  ]
+}

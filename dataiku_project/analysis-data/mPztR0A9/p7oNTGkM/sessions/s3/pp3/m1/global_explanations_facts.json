@@ -1,0 +1,22 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "housing": {
+                "impact": 0.20048160900459835,
+                "rank": 3,
+                "feature": "housing",
+                "positiveCategoricalValue": "false",
+                "negativeCategoricalValue": "true",
+                "infoGain": 0.5277785469740393,
+                "type": "CATEGORICAL"
+            },
+            "balance": {
+                "impact": 0.07886076241328428,
+                "rank": 11,
+                "feature": "balance",
+                "correlation": 0.7226709036731397,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

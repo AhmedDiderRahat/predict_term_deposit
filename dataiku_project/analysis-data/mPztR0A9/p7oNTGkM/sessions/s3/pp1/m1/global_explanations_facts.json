@@ -1,0 +1,20 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "balance": {
+                "impact": 0.15256606549085827,
+                "rank": 4,
+                "feature": "balance",
+                "correlation": 0.7153232267852044,
+                "type": "NUMERICAL"
+            },
+            "campaign": {
+                "impact": 0.13107462165829725,
+                "rank": 6,
+                "feature": "campaign",
+                "correlation": -0.7388683266174882,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

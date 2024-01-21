@@ -1,0 +1,1 @@
+{"type":"categorical_histogram","histogram":{"filters":[{"type":"anum","column":"y","values":["no"]},{"type":"anum","column":"y","values":["yes"]}],"totalCount":45211,"counts":[39922,5289]},"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

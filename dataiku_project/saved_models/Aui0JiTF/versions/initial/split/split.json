@@ -1,0 +1,66 @@
+{
+  "params": {
+    "ttPolicy": "SPLIT_SINGLE_DATASET",
+    "ssdSplitMode": "RANDOM",
+    "splitBeforePrepare": true,
+    "ssdSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "FULL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "ascending": true,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1,
+      "seed": 1337
+    },
+    "ssdTrainingRatio": 0.8,
+    "ssdStratified": false,
+    "ssdGrouped": false,
+    "ssdSeed": 1337,
+    "testOnLargerValues": true,
+    "streamAll": false,
+    "kfold": true,
+    "nFolds": 5,
+    "instanceIdRefresher": 1,
+    "subSamplingSeed": 1337
+  },
+  "generationDate": 1705605589567,
+  "policyId": "type\u003dSPLIT_SINGLE_DATASET,split\u003dRANDOM_KFOLD,folds\u003d5,splitBeforePrepare\u003dtrue,ds\u003dtrain_data,sel\u003d(method\u003dfull),r\u003d0.8,s\u003d1337",
+  "instanceId": "0cc982e0455e37987b481a20bb87538e-1",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"age","type":"bigint"},
+      {"name":"job","type":"string"},
+      {"name":"marital_status","type":"string"},
+      {"name":"education","type":"string"},
+      {"name":"credit_default","type":"boolean"},
+      {"name":"balance","type":"bigint"},
+      {"name":"housing","type":"boolean"},
+      {"name":"loan","type":"boolean"},
+      {"name":"contact","type":"string"},
+      {"name":"day","type":"bigint"},
+      {"name":"month","type":"string"},
+      {"name":"campaign","type":"bigint"},
+      {"name":"pdays","type":"bigint"},
+      {"name":"previous","type":"bigint"},
+      {"name":"poutcome","type":"string"},
+      {"name":"predicted_value","type":"boolean"}
+    ],
+    "userModified": false
+  },
+  "fullPath": "full.csv.gz",
+  "trainRows": 0,
+  "testRows": 0,
+  "fullRows": 31648
+}

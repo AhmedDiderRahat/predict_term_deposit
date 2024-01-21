@@ -1,0 +1,1 @@
+{"type":"univariate_frequency_table","frequencies":{"filters":[{"type":"anum","column":"housing","values":["yes"]},{"type":"anum","column":"housing","values":["no"]}],"totalCount":45211,"counts":[25130,20081]},"distinctCount":2,"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

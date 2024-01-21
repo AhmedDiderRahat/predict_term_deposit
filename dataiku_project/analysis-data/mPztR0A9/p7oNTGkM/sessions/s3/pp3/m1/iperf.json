@@ -1,0 +1,7 @@
+{
+    "modelInputNRows": 31648,
+    "modelInputNCols": 60,
+    "modelInputIsSparse": false,
+    "modelInputMemory": 15191040,
+    "probaAware": true
+}

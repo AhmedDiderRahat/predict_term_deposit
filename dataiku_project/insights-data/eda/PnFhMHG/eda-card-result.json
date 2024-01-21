@@ -1,0 +1,1 @@
+{"type":"categorical_histogram","histogram":{"filters":[{"type":"anum","column":"pdays","values":["-1"]},{"type":"not","filter":{"type":"anum","column":"pdays","values":["-1"]},"name":"Others"}],"totalCount":45211,"counts":[36954,8257]},"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

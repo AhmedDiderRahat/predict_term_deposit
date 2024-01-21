@@ -1,0 +1,230 @@
+{
+    "per_feature": {
+        "loan": {
+            "stats": {
+                "mostFrequentValue": "false",
+                "leastFrequentValue": "true"
+            },
+            "dropped_modality": "true",
+            "category_possible_values": [
+                "false"
+            ],
+            "category_possible_counts": [
+                26576
+            ]
+        },
+        "education": {
+            "stats": {
+                "mostFrequentValue": "secondary",
+                "leastFrequentValue": "unknown"
+            },
+            "dropped_modality": "unknown",
+            "category_possible_values": [
+                "secondary",
+                "tertiary",
+                "primary"
+            ],
+            "category_possible_counts": [
+                16249,
+                9364,
+                4776
+            ]
+        },
+        "previous": {
+            "stats": {}
+        },
+        "housing": {
+            "stats": {
+                "mostFrequentValue": "true",
+                "leastFrequentValue": "false"
+            },
+            "dropped_modality": "false",
+            "category_possible_values": [
+                "true"
+            ],
+            "category_possible_counts": [
+                17591
+            ]
+        },
+        "poutcome": {
+            "stats": {}
+        },
+        "marital_status": {
+            "stats": {
+                "mostFrequentValue": "married",
+                "leastFrequentValue": "divorced"
+            },
+            "dropped_modality": "divorced",
+            "category_possible_values": [
+                "married",
+                "single"
+            ],
+            "category_possible_counts": [
+                19128,
+                8925
+            ]
+        },
+        "credit_default": {
+            "stats": {
+                "mostFrequentValue": "false",
+                "leastFrequentValue": "true"
+            },
+            "dropped_modality": "true",
+            "category_possible_values": [
+                "false"
+            ],
+            "category_possible_counts": [
+                31100
+            ]
+        },
+        "balance": {
+            "stats": {
+                "min": -8019.0,
+                "average": 1366.8837841253792,
+                "median": 451.0,
+                "max": 102127.0,
+                "p99": 13158.119999999995,
+                "std": 3103.8353065652295
+            },
+            "missing_impute_with_value": 1366.8837841253792
+        },
+        "month": {
+            "stats": {
+                "mostFrequentValue": "may",
+                "leastFrequentValue": "dec"
+            },
+            "dropped_modality": "dec",
+            "category_possible_values": [
+                "may",
+                "jul",
+                "aug",
+                "jun",
+                "nov",
+                "apr",
+                "feb",
+                "jan",
+                "oct",
+                "sep",
+                "mar"
+            ],
+            "category_possible_counts": [
+                9691,
+                4815,
+                4338,
+                3764,
+                2759,
+                2046,
+                1873,
+                960,
+                516,
+                404,
+                336
+            ]
+        },
+        "contact": {
+            "stats": {
+                "mostFrequentValue": "cellular",
+                "leastFrequentValue": "telephone"
+            },
+            "dropped_modality": "telephone",
+            "category_possible_values": [
+                "cellular",
+                "unknown"
+            ],
+            "category_possible_counts": [
+                20447,
+                9151
+            ]
+        },
+        "predicted_value": {
+            "stats": {}
+        },
+        "campaign": {
+            "stats": {
+                "min": 1.0,
+                "average": 2.7699380687563195,
+                "median": 2.0,
+                "max": 63.0,
+                "p99": 16.0,
+                "std": 3.1164196214977635
+            },
+            "missing_impute_with_value": 2.7699380687563195
+        },
+        "job": {
+            "stats": {
+                "mostFrequentValue": "blue-collar",
+                "leastFrequentValue": "unknown"
+            },
+            "dropped_modality": "unknown",
+            "category_possible_values": [
+                "blue-collar",
+                "management",
+                "technician",
+                "admin.",
+                "services",
+                "retired",
+                "self-employed",
+                "entrepreneur",
+                "unemployed",
+                "housemaid",
+                "student"
+            ],
+            "category_possible_counts": [
+                6760,
+                6638,
+                5317,
+                3606,
+                2963,
+                1585,
+                1135,
+                1043,
+                927,
+                850,
+                633
+            ]
+        },
+        "day": {
+            "stats": {
+                "min": 1.0,
+                "average": 15.79866026289181,
+                "median": 16.0,
+                "max": 31.0,
+                "p99": 31.0,
+                "std": 8.326965804128024
+            },
+            "missing_impute_with_value": 15.79866026289181
+        },
+        "age": {
+            "stats": {
+                "min": 18.0,
+                "average": 40.95712209302326,
+                "median": 39.0,
+                "max": 94.0,
+                "p99": 71.0,
+                "std": 10.623850798622572
+            },
+            "missing_impute_with_value": 40.95712209302326
+        },
+        "pdays": {
+            "stats": {}
+        }
+    },
+    "feature_order": [
+        "loan",
+        "education",
+        "previous",
+        "housing",
+        "poutcome",
+        "marital_status",
+        "credit_default",
+        "balance",
+        "month",
+        "contact",
+        "predicted_value",
+        "campaign",
+        "job",
+        "day",
+        "age",
+        "pdays"
+    ]
+}

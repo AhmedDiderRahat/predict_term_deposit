@@ -1,0 +1,69 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "numerical_histogram",
+      "showBoxPlot": false,
+      "showHistogram": true,
+      "binningMode": "CUSTOM",
+      "nbBins": 1,
+      "customBinningBoundaries": [
+        0.0,
+        20000.0,
+        50000.0,
+        75000.0,
+        105000.0
+      ],
+      "column": {
+        "name": "balance",
+        "type": "CONTINUOUS"
+      },
+      "id": "Kh1ilTm"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "marketing_campaigns_data",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": false,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1,
+        "seed": 1337
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": true,
+  "name": "Histogram on balance ",
+  "dashboardCreationId": "AGwp6E0",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705001515186,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,99 @@
+{
+    "userMeta": {
+        "name": "2024-01-18 21:18:40",
+        "labels": [
+            {
+                "key": "trainDataset:dataset-name",
+                "value": "train_data"
+            },
+            {
+                "key": "model:name",
+                "value": "SVM (updated_model) - v1"
+            },
+            {
+                "key": "testDataset:dataset-name",
+                "value": "train_data"
+            },
+            {
+                "key": "model:algorithm",
+                "value": "SVC_CLASSIFICATION"
+            },
+            {
+                "key": "model:session-name",
+                "value": "updated_model"
+            },
+            {
+                "key": "model:date",
+                "value": "2024-01-18T20:02:48.612+0000"
+            },
+            {
+                "key": "evaluationDataset:dataset-name",
+                "value": "test_data"
+            },
+            {
+                "key": "evaluation:date",
+                "value": "2024-01-18T21:18:40.221+0000"
+            },
+            {
+                "key": "evaluation:model-name",
+                "value": "SVM (updated_model) - v1"
+            }
+        ]
+    },
+    "evaluateRecipeParams": {
+        "dontComputePerformance": false
+    },
+    "hasDriftReference": false,
+    "modelType": "SAVED_MODEL",
+    "modelParams": {
+        "ref": "Aui0JiTF",
+        "versionId": "initial",
+        "description": "",
+        "versionName": "SVM (updated_model) - v1",
+        "trainEndTime": 1705608168612,
+        "isPartitioned": false,
+        "isEnsembled": false,
+        "name": "SVM (updated_model) - v1"
+    },
+    "created": 1705612720228,
+    "nbEvaluationRows": 13563,
+    "trainDataType": "SPLIT",
+    "trainDataParams": {
+        "generationDate": 1705605589567,
+        "datasetName": "train_data",
+        "partitions": [
+            "NP"
+        ]
+    },
+    "dataType": "DATASET",
+    "dataParams": {
+        "ref": "test_data",
+        "partitions": [
+            "NP"
+        ]
+    },
+    "predictionType": "BINARY_CLASSIFICATION",
+    "predictionVariable": "prediction",
+    "targetVariable": "predicted_value",
+    "outputProbabilities": true,
+    "thresholdAutoOptimized": false,
+    "activeClassifierThreshold": 0.225,
+    "metricParams": {
+        "customMetrics": [],
+        "evaluationMetric": "ROC_AUC",
+        "thresholdOptimizationMetric": "F1",
+        "costMatrixWeights": {
+            "tpGain": 1.0,
+            "tnGain": 0.0,
+            "fpGain": -0.3,
+            "fnGain": 0.0
+        },
+        "liftPoint": 0.4,
+        "netUpliftPoint": 0.5,
+        "causalWeighting": "NO_WEIGHTING"
+    },
+    "evaluationDatasetType": "CLASSIC",
+    "skipScoring": false,
+    "limitSampling": true,
+    "hasModel": true
+}

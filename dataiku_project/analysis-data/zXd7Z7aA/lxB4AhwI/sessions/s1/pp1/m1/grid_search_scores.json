@@ -1,0 +1,52 @@
+{
+    "startedAt": 1705422892698,
+    "gridSize": 2,
+    "nThreads": 4,
+    "nSplits": 5,
+    "metric": "ROC_AUC",
+    "timeout": null,
+    "gridPoints": [
+        {
+            "finishedAt": 1705422920400,
+            "score": 0.8765841848700654,
+            "testScoreGibMean": 0.8765841848700654,
+            "testScoreMean": 0.8765841848700654,
+            "testScoreStd": 0.0069433191426682235,
+            "trainScoreMean": 0.8886086821185624,
+            "trainScoreStd": 0.0018956669475509971,
+            "time": 65669,
+            "fitTimeMean": 10507.8,
+            "fitTimeStd": 212.07206322380136,
+            "scoreTimeMean": 2626.0,
+            "scoreTimeStd": 1452.8507149738407,
+            "parameters": {
+                "max_depth": 6,
+                "max_features": "auto",
+                "min_samples_leaf": 1,
+                "n_estimators": 100,
+                "min_samples_split": 3
+            }
+        },
+        {
+            "finishedAt": 1705422930043,
+            "score": 0.8954844177427927,
+            "testScoreGibMean": 0.8954844177427927,
+            "testScoreMean": 0.8954844177427927,
+            "testScoreStd": 0.0056836940272315985,
+            "trainScoreMean": 0.9699879617626477,
+            "trainScoreStd": 0.00040372107836859385,
+            "time": 71617,
+            "fitTimeMean": 11032.2,
+            "fitTimeStd": 4244.766631983435,
+            "scoreTimeMean": 3291.2,
+            "scoreTimeStd": 1437.2265513829057,
+            "parameters": {
+                "max_depth": 14,
+                "max_features": "auto",
+                "min_samples_leaf": 1,
+                "n_estimators": 100,
+                "min_samples_split": 3
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: dataiku-exec-doctor-preprocessing-kucdb4w
+  labels: {"dataiku.com/dku-analysis-id":"earmqblt","dataiku.com/dku-mltask-id":"ln02kmts","dataiku.com/dku-node-id":"design","dataiku.com/dku-install-id":"mu2b9boy4fpwlnovtdaqms7v","dataiku.com/dku-execution-type":"analysis_ml_train","dataiku.com/dku-mltask-session-id":"s1","dataiku.com/dku-execution-id":"doctor-preprocessing-kucdb4w","dataiku.com/dku-project-key":"dsp_project","dataiku.com/dku-exec-submitter":"adrahat.neub-gmail.com"}
+  annotations: {"dataiku.com/dku-analysis-id":"EaRMQBlT","dataiku.com/dku-install-id":"Mu2b9BOy4FPwLnOVtdaqmS7v","dataiku.com/dku-execution-type":"ANALYSIS_ML_TRAIN","dataiku.com/dku-project-key":"DSP_PROJECT","dataiku.com/dku-exec-submitter":"adrahat.neub@gmail.com"}
+  # To add labels to pods and jobs, set a dku.kubernetes.jobs.extraLabels key
+  # To add annotations to pods and jobs, set a dku.kubernetes.jobs.extraAnnotations key
+spec:
+  restartPolicy: Never
+  containers:
+  - name: c
+    image: 538701811630.dkr.ecr.eu-west-3.amazonaws.com/gis-stable/dss-gis-alma8-exec-base-12.4.0:1.0.75
+    imagePullPolicy: IfNotPresent # local image
+    env:
+    - name: DKU_EXECUTION_ID
+      value: "doctor-preprocessing-kucdb4w"
+    - name: DKU_BACKEND_PORT
+      value: "44005"
+    - name: DKU_BACKEND_HOST
+      value: "dss-headless-node-9f1a3966.space-6334fb89-dku.svc.cluster.local"
+    - name: DKU_BACKEND_PROTOCOL
+      value: "https"
+    - name: DKU_SERVER_PORT
+      value: "44005"
+    - name: DKU_SERVER_HOST
+      value: "dss-headless-node-9f1a3966.space-6334fb89-dku.svc.cluster.local"
+    - name: DKU_SERVER_PROTOCOL
+      value: "https"
+    - name: DKU_SERVER_KIND
+      value: "BACKEND"
+    - name: DKU_SERVER_CERT
+      value: "b64:LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUZURENDQXpTZ0F3SUJBZ0lVT3Y1TDVPMXNYRFNFcTNqZWhFNUc4eklqNXowd0RRWUpLb1pJaHZjTkFRRUwKQlFBd0ZERVNNQkFHQTFVRUF3d0piRzlqWVd4b2IzTjBNQjRYRFRJek1USXlNakE0TVRjd05sb1hEVE16TVRJeApPVEE0TVRjd05sb3dGREVTTUJBR0ExVUVBd3dKYkc5allXeG9iM04wTUlJQ0lqQU5CZ2txaGtpRzl3MEJBUUVGCkFBT0NBZzhBTUlJQ0NnS0NBZ0VBdzRENDA1bGRqYWdhWUorZG9FblIvNE1ac29nUzlJZ2VIdERkQ1VvVzJXWDUKbWRmSlEzN1V0VlBlUlhFQXU1MTFIZE0rOGZMSGtNUC9zbm56RXRCS00wNEMrdG9xYVIzMlkwbHdRdHFpTC9nUgo3VFhPWWI2K1prYW5hdGxCd0JSV3g0OW1MUGhUNFp1N29oTmVDK2R5NGFvNjhnR2haOWw1OTNnNVE5MDJweUViCmJBaGQyc2plNDRNbUVWV2NUVlJsZ3FVeUUrYysydGFFK0Q1VUVaK2VpVnd3SHZIeWdHT2pZdmNLR1h4YVRVaTYKMWNYa1g0NEQ2RGNxRFpJNFJkR0IxV0J4VWtwZDNBWGxaYktxZXlLSG9iQkxFaUN6THZYQTlQVWlhZGlIWGZCTQpCYlNrSjFUOHlqclR4TkgvKy93WHFyeDdsK1hzL3VNZXZzT2Q0WlA1YTFqUHFoSDhDQjg2TXdUczJteXpZT3FDCm9qVTRSZlBJaURoL0EyZW5hSURMSENNeXc5ajQzZ2xJQ3RQTXBWT2tSMFV4eGtXSWhWK0NySDhSTVJBMDg4UU4KTVpJbXNuc3J1VWVoN0wrem54dUMxYXBVa1VJdVdkSkh5Q1UzWXYzZzZJbVpWWjE4a0ljemhRT1dwTC9vMjhKTgpQdS9jUjBRQ2ZXeFlWUzFvOEk5cndBN0xMcVJrTlpnT2JNZWVkSWhCeTVwSVZYUGZhSUZNOTRXaGZQaW44STVBCnZFVmRSUW4ra1o2R0Z3TDEwdXVyU1hMY0hZaEFacjFJY3kwMml5QzVJdnhJaVp6TFNZNXpjTnpkK2xZTXZNSTQKZmNLa3lsbW1nSTV6VUluVXpUVTNKMUM0QVNMOURzVFh5WmZnWHBiZlFlNG1NZGRnNnBscUdIa3N0WEpOeDhFQwpBd0VBQWFPQmxUQ0JrakNCandZRFZSMFJCSUdITUlHRWdnbHNiMk5oYkdodmMzU0NNR1J6Y3kxa1pYTnBaMjR0CmFHOXpkQzF1YjJSbExUbG1NV0V6T1RZMkxYTndZV05sTFRZek16Um1Zamc1TFdScmRZY0Vmd0FBQVlJL1pITnoKTFdobFlXUnNaWE56TFc1dlpHVXRPV1l4WVRNNU5qWXVjM0JoWTJVdE5qTXpOR1ppT0RrdFpHdDFMbk4yWXk1agpiSFZ6ZEdWeUxteHZZMkZzTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElDQVFDdkdDdWViaHZES3B1T3g3d1haUGwxCmlaVk5qZUtTbW15RlNlcVFQanFXbTZhVjhUb2s5ckgwMDRFU1FFaU4xdWhQOGh0SVROZ3VSWVNDWFVEaDViSUIKWWdMWGtaa29ja252WUppRXo3RnE3ZkR0ZHdvM2FpZXd6c0ZXTUwyN1FLb0xqMWoxazlaNVlqMWJEMUNzMjkxRgpQK3pGSnI4NnEzWjBaQzc3Q0ZLbG1wYmRCMlh6d2xEZmZpVkQzVmNIbzgrb0JTZldnQ3pLMTUyOE8xRFVQOStYCmEzdjdZbHgwOWNHR3RWb1FENTdQa3BxMHAvM2piVy82VkNsdFgrdEZiaklHQWRMNDRHSDJFOFRTZCszalZoSUUKeEdRRVZaTXRqYlc3bzdqbnlXd2REK1ZxR3hUM0U0dmtTVlRXMHV2MzdlTlJFTFdCMTlhWlZqTmpxb0NDL0d3OApVa3B6dlArTS9wZ1lwaUxCU0ZTRU5rdGFDWjQ4Wkt4ejc3V1FIVkFucmh6dnc4YmtLbzcyamd4WWpiQklPWTZzCnIrUStMUWh1c0doYTFKcWtxUGs5TU1DTWhDZ0dVbTNXQi9iY1c1Rld4SlRJQythVDg3MFl5N3hYSUNNL0JpNmEKRlpEQmRnNzU0RzY2SjVTcS9wZDFKSElOc25Fb293aUg3akJKSUhGMnNVYkZQWktCQis5Mnd1enJraFpWYmkwagpzbGVsUDJZUVBpYW9LR2RZdkZkSHVSRVRhaHJoM0lBNzVKR2MwWGttSXV3ako2dUJtSmh1ZzRNVjBlMnE2LzV0Cm1YcFh4aFFKVmFucWpidnZFSmVNWE9EbGVvc2R5QnFJWkROMHlWY1c1VVZQeDRleUZ1dERqZEs3cS9lb3dFenoKdTBzQzR1aHc1NUMrbm5WS0h4RVowUT09Ci0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K"
+    - name: "DKU_API_TICKET"
+      valueFrom:
+        secretKeyRef:
+          name: dkusecret-doctor-preprocessing-kucdb4w
+          key: apiticket
+    - name: "DKU_EXECUTION_SECRET_ID"
+      valueFrom:
+        secretKeyRef:
+          name: dkusecret-doctor-preprocessing-kucdb4w
+          key: secret_id
+          optional: true
+    - name: REMOTE_WORKER_POOL_ID
+      value: "pool-blqynvndzit34bln"
+    - name: PYTHONIOENCODING
+      value: "UTF-8"
+    - name: DKU_CURRENT_PROJECT_KEY
+      value: "DSP_PROJECT"
+    resources:
+      requests:
+        cpu: "1.0"
+        memory: "4086Mi"
+      limits:
+        cpu: "1.0"
+        memory: "4096Mi"
+    # __DKU_KUBERNETES_HOSTPATH_VOLUME_MOUNTS__
+    args: ["$(DKU_EXECUTION_ID)"]
+  # __DKU_KUBERNETES_HOSTPATH_HOST_VOLUMES__
+  # __DKU_KUBERNETES_NODESELECTOR__
+  # __DKU_KUBERNETES_AFFINITY__
+  # __DKU_KUBERNETES_TOLERATIONS__
+  # __DKU_KUBERNETES_IMAGE_PULL_SECRETS__

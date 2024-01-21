@@ -1,0 +1,15 @@
+{
+    "resolved": {
+        "algorithm": "SVC_CLASSIFICATION",
+        "skipExpensiveReports": false,
+        "svm": {
+            "C": 1.0,
+            "kernel": "rbf",
+            "tol": 0.001,
+            "max_iter": -1,
+            "coef0": 0.0,
+            "gamma": "scale"
+        }
+    },
+    "other": {}
+}

@@ -1,0 +1,1 @@
+{"type":"categorical_histogram","histogram":{"filters":[{"type":"anum","column":"loan","values":["no"]},{"type":"anum","column":"loan","values":["yes"]}],"totalCount":45211,"counts":[37967,7244]},"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

@@ -1,0 +1,41 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.625,
+  "description": "",
+  "name": "Logistic Regression (s1)",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "Exam_1"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "Exam_1"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "Exam_1"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "LOGISTIC_REGRESSION"
+    },
+    {
+      "key": "model:name",
+      "value": "Logistic Regression (s1)"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-16T16:35:16.293+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-16T16:35:16.293+0000"
+    }
+  ]
+}

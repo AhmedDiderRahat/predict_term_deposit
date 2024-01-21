@@ -1,0 +1,46 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "sessionName": "updated_model",
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.525,
+  "description": "",
+  "name": "Random forest (updated_model) - v1",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "RANDOM_FOREST_CLASSIFICATION"
+    },
+    {
+      "key": "model:session-name",
+      "value": "updated_model"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-18T19:21:12.543+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-18T19:21:12.543+0000"
+    },
+    {
+      "key": "model:name",
+      "value": "Random forest (updated_model) - v1"
+    }
+  ]
+}

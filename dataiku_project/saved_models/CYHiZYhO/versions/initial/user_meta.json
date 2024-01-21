@@ -1,0 +1,46 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "sessionName": "updated_model",
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.65,
+  "description": "",
+  "name": "Logistic Regression (updated_model) - v1",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "LOGISTIC_REGRESSION"
+    },
+    {
+      "key": "model:session-name",
+      "value": "updated_model"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-18T19:20:43.588+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-18T19:20:43.588+0000"
+    },
+    {
+      "key": "model:name",
+      "value": "Logistic Regression (updated_model) - v1"
+    }
+  ]
+}

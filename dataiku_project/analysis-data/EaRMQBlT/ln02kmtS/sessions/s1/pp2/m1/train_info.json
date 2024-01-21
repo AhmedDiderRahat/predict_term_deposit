@@ -1,0 +1,93 @@
+{
+  "state": "DONE",
+  "preSearchDescription": {
+    "gridLength": 5,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "penalty",
+        "vals": [
+          "l2"
+        ]
+      },
+      {
+        "name": "C",
+        "vals": [
+          "0.01",
+          "0.1",
+          "1.0",
+          "10.0",
+          "100.0"
+        ]
+      }
+    ]
+  },
+  "postSearchDescription": {
+    "importantParams": [
+      {
+        "name": "C",
+        "val": "1.0"
+      },
+      {
+        "name": "penalty",
+        "val": "l2"
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [],
+    "stack": [],
+    "top_level_done": [
+      {
+        "name": "Loading train set",
+        "time": 124
+      },
+      {
+        "name": "Loading test set",
+        "time": 48
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 68
+      },
+      {
+        "name": "Preprocessing train set",
+        "time": 214
+      },
+      {
+        "name": "Preprocessing test set",
+        "time": 94
+      },
+      {
+        "name": "Hyperparameter searching",
+        "time": 39502
+      },
+      {
+        "name": "Fitting model",
+        "time": 192
+      },
+      {
+        "name": "Saving model",
+        "time": 13
+      },
+      {
+        "name": "Scoring model",
+        "time": 9500
+      },
+      {
+        "name": "Preparing explainability",
+        "time": 7027
+      }
+    ]
+  },
+  "startTime": 1705424658541,
+  "endTime": 1705424715399,
+  "preprocessingTime": 618,
+  "trainingTime": 56240,
+  "hyperparamsSearchTime": 39502,
+  "pythonVersion": "3.6.8"
+}

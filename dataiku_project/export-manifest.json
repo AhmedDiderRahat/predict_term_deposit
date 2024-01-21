@@ -1,0 +1,166 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "exportSavedModelsRequiredVersions": false,
+    "exportNotebooksWithOutputs": true,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "Exam_1",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 4610348
+      },
+      {
+        "name": "LR_OUTCOME",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 1869434
+      },
+      {
+        "name": "RF_OUTCOME",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 1869877
+      },
+      {
+        "name": "SVM_OUTCOME",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 1874853
+      },
+      {
+        "name": "data_preparation",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 4000712
+      },
+      {
+        "name": "test_data",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 1199911
+      },
+      {
+        "name": "train_data",
+        "type": "S3",
+        "usedTransferMethod": "DATA_BUNDLE",
+        "size": 2800801
+      }
+    ],
+    "includedSavedModels": [
+      {
+        "id": "Aui0JiTF",
+        "name": "UPDATED_SVM",
+        "size": 13905084
+      },
+      {
+        "id": "CYHiZYhO",
+        "name": "UPDATED_LR",
+        "size": 2838047
+      },
+      {
+        "id": "yqEdWDmq",
+        "name": "UPDATED_RF",
+        "size": 25963562
+      }
+    ],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [
+      {
+        "id": "0EjRmtKy",
+        "name": "RF_EVALUATION",
+        "size": 1065812
+      },
+      {
+        "id": "50k4y9S2",
+        "name": "SVM_EVALUATION",
+        "size": 1058025
+      },
+      {
+        "id": "MbpaLGai",
+        "name": "LR_EVALUATION",
+        "size": 1068855
+      }
+    ],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "DSP_PROJECT",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "12.4.0",
+  "generatedWithDSSConfVersion": "12400",
+  "foreignObjects": [],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "geoadmin",
+      "version": "2.3.1"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "dku-saas",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "dataiku-managed-storage": {
+      "name": "dataiku-managed-storage",
+      "type": "EC2",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [
+    {
+      "envLang": "PYTHON",
+      "envName": "datascience"
+    }
+  ],
+  "allowedMissingCodeEnvs": [],
+  "hasPartitionedDataset": false
+}

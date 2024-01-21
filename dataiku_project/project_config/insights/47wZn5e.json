@@ -1,0 +1,130 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "univariate_header",
+      "showHistogram": true,
+      "showQuantile": false,
+      "showFrequencyTable": true,
+      "showSummary": true,
+      "showBoxPlot": false,
+      "showCumulativeDistributionFunction": false,
+      "xColumns": [
+        {
+          "name": "y",
+          "type": "CATEGORICAL"
+        }
+      ],
+      "cards": [
+        {
+          "type": "column_card",
+          "column": {
+            "name": "y",
+            "type": "CATEGORICAL"
+          },
+          "cards": [
+            {
+              "type": "categorical_histogram",
+              "maxValues": 10,
+              "groupOthers": false,
+              "column": {
+                "name": "y",
+                "type": "CATEGORICAL"
+              },
+              "id": "ivbgMXw"
+            },
+            {
+              "type": "univariate_summary",
+              "confidenceLevel": 0.95,
+              "showConfidenceInterval": false,
+              "compute": {
+                "totalCount": true,
+                "mean": true,
+                "sum": false,
+                "median": true,
+                "std": true,
+                "variance": false,
+                "skewness": false,
+                "kurtosis": false,
+                "sem": false,
+                "completeCount": true,
+                "nbEmpty": true,
+                "zeroCount": false,
+                "zeroRatio": false,
+                "nonZeroRatio": false,
+                "iqr": false,
+                "distinctCount": true,
+                "nbNonEmpty": false,
+                "min": true,
+                "max": true,
+                "range": false,
+                "mode": true
+              },
+              "column": {
+                "name": "y",
+                "type": "CATEGORICAL"
+              },
+              "id": "mNIM5rJ"
+            },
+            {
+              "type": "univariate_frequency_table",
+              "maxValues": 10,
+              "column": {
+                "name": "y",
+                "type": "CATEGORICAL"
+              },
+              "id": "ovT1Xbn"
+            }
+          ],
+          "id": "UHbIWfe"
+        }
+      ],
+      "id": "mbgb2oL"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "marketing_campaigns_data",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": false,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1,
+        "seed": 1337
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": true,
+  "name": "Univariate analysis on 1 variable ",
+  "dashboardCreationId": "AGwp6E0",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705005749258,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

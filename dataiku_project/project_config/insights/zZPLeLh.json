@@ -1,0 +1,60 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "categorical_histogram",
+      "maxValues": 10,
+      "groupOthers": false,
+      "column": {
+        "name": "contact",
+        "type": "CATEGORICAL"
+      },
+      "id": "l6D5hxl"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "marketing_campaigns_data",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": false,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1,
+        "seed": 1337
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": true,
+  "name": "Histogram on contact ",
+  "dashboardCreationId": "AGwp6E0",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705001859300,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

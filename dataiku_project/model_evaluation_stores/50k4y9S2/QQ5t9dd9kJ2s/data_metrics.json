@@ -1,0 +1,732 @@
+{
+    "driftModelAccuracy": {
+        "lower": 0.48791113548724485,
+        "value": 0.49877119685426397,
+        "upper": 0.5096324177615927,
+        "pvalue": 0.5920360801036354,
+        "confidenceLevel": 0.95
+    },
+    "driftResult": {
+        "univariateDriftResult": {
+            "columns": {
+                "age": {
+                    "type": "NUMERICAL",
+                    "name": "age",
+                    "histogram": {
+                        "binEdges": [
+                            15.0,
+                            20.0,
+                            25.0,
+                            30.0,
+                            35.0,
+                            40.0,
+                            45.0,
+                            50.0,
+                            55.0,
+                            60.0,
+                            65.0,
+                            70.0,
+                            75.0,
+                            80.0,
+                            85.0,
+                            90.0,
+                            95.0,
+                            100.0,
+                            105.0,
+                            110.0,
+                            115.0
+                        ],
+                        "binCountsReference": [
+                            31,
+                            540,
+                            3142,
+                            6744,
+                            5872,
+                            4309,
+                            3849,
+                            3168,
+                            2749,
+                            678,
+                            174,
+                            181,
+                            116,
+                            72,
+                            19,
+                            4,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            16,
+                            222,
+                            1322,
+                            2996,
+                            2477,
+                            1876,
+                            1621,
+                            1320,
+                            1173,
+                            296,
+                            82,
+                            73,
+                            54,
+                            26,
+                            4,
+                            3,
+                            2,
+                            0,
+                            0,
+                            0
+                        ],
+                        "nbMissingValuesReference": 0,
+                        "nbMissingValuesCurrent": 0,
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "ksTestStatistic": 0.006221068988841116,
+                    "ksTestPvalue": 0.8549853404638329,
+                    "populationStabilityIndex": 0.0007579546919860027,
+                    "wassersteinDistance": 0.11228413520114011
+                },
+                "job": {
+                    "type": "CATEGORICAL",
+                    "name": "job",
+                    "histogram": {
+                        "binNames": [
+                            "blue-collar",
+                            "management",
+                            "technician",
+                            "admin.",
+                            "services",
+                            "retired",
+                            "self-employed",
+                            "entrepreneur",
+                            "unemployed",
+                            "housemaid",
+                            "student",
+                            "unknown"
+                        ],
+                        "binCountsReference": [
+                            6760,
+                            6638,
+                            5317,
+                            3606,
+                            2963,
+                            1585,
+                            1135,
+                            1043,
+                            927,
+                            850,
+                            633,
+                            191,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            2972,
+                            2820,
+                            2280,
+                            1565,
+                            1191,
+                            679,
+                            444,
+                            444,
+                            376,
+                            390,
+                            305,
+                            97,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 1.0,
+                    "chiSquareTestStatistic": 0.0015457773135210354,
+                    "populationStabilityIndex": 0.0015312430320925238,
+                    "newValuesPercentage": 0.0
+                },
+                "marital_status": {
+                    "type": "CATEGORICAL",
+                    "name": "marital_status",
+                    "histogram": {
+                        "binNames": [
+                            "married",
+                            "single",
+                            "divorced"
+                        ],
+                        "binCountsReference": [
+                            19128,
+                            8925,
+                            3595,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            8086,
+                            3865,
+                            1612,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 0.9998068798495363,
+                    "chiSquareTestStatistic": 0.0003862776011223552,
+                    "populationStabilityIndex": 0.00038141308823937245,
+                    "newValuesPercentage": 0.0
+                },
+                "education": {
+                    "type": "CATEGORICAL",
+                    "name": "education",
+                    "histogram": {
+                        "binNames": [
+                            "secondary",
+                            "tertiary",
+                            "primary",
+                            "unknown"
+                        ],
+                        "binCountsReference": [
+                            16249,
+                            9364,
+                            4776,
+                            1259,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            6953,
+                            3937,
+                            2075,
+                            598,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 0.9999960644390578,
+                    "chiSquareTestStatistic": 0.0006028060210367114,
+                    "populationStabilityIndex": 0.000580037464794835,
+                    "newValuesPercentage": 0.0
+                },
+                "credit_default": {
+                    "type": "CATEGORICAL",
+                    "name": "credit_default",
+                    "histogram": {
+                        "binNames": [
+                            "false",
+                            "true"
+                        ],
+                        "binCountsReference": [
+                            31100,
+                            548,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            13296,
+                            267,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 0.985501571627609,
+                    "chiSquareTestStatistic": 0.00033022468573618084,
+                    "populationStabilityIndex": 0.0003098590666455781,
+                    "newValuesPercentage": 0.0
+                },
+                "balance": {
+                    "type": "NUMERICAL",
+                    "name": "balance",
+                    "histogram": {
+                        "binEdges": [
+                            -10000.0,
+                            -4250.0,
+                            1500.0,
+                            7250.0,
+                            13000.0,
+                            18750.0,
+                            24500.0,
+                            30250.0,
+                            36000.0,
+                            41750.0,
+                            47500.0,
+                            53250.0,
+                            59000.0,
+                            64750.0,
+                            70500.0,
+                            76250.0,
+                            82000.0,
+                            87750.0,
+                            93500.0,
+                            99250.0,
+                            105000.0
+                        ],
+                        "binCountsReference": [
+                            2,
+                            23983,
+                            6586,
+                            745,
+                            179,
+                            77,
+                            38,
+                            9,
+                            9,
+                            6,
+                            3,
+                            3,
+                            2,
+                            1,
+                            1,
+                            2,
+                            0,
+                            0,
+                            1,
+                            1
+                        ],
+                        "binCountsCurrent": [
+                            0,
+                            10325,
+                            2782,
+                            314,
+                            77,
+                            39,
+                            12,
+                            4,
+                            4,
+                            2,
+                            2,
+                            1,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "nbMissingValuesReference": 0,
+                        "nbMissingValuesCurrent": 0,
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "ksTestStatistic": 0.005921100549605263,
+                    "ksTestPvalue": 0.8924119059923675,
+                    "populationStabilityIndex": 0.0007797259885776655,
+                    "wassersteinDistance": 32.00894469221342
+                },
+                "housing": {
+                    "type": "CATEGORICAL",
+                    "name": "housing",
+                    "histogram": {
+                        "binNames": [
+                            "true",
+                            "false"
+                        ],
+                        "binCountsReference": [
+                            17591,
+                            14057,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            7539,
+                            6024,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 0.9999717962759879,
+                    "chiSquareTestStatistic": 1.2494900143089658e-09,
+                    "populationStabilityIndex": 1.2494949778541064e-09,
+                    "newValuesPercentage": 0.0
+                },
+                "loan": {
+                    "type": "CATEGORICAL",
+                    "name": "loan",
+                    "histogram": {
+                        "binNames": [
+                            "false",
+                            "true"
+                        ],
+                        "binCountsReference": [
+                            26576,
+                            5072,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            11391,
+                            2172,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 0.9997361112734315,
+                    "chiSquareTestStatistic": 1.0938595622005047e-07,
+                    "populationStabilityIndex": 1.0941947794100693e-07,
+                    "newValuesPercentage": 0.0
+                },
+                "contact": {
+                    "type": "CATEGORICAL",
+                    "name": "contact",
+                    "histogram": {
+                        "binNames": [
+                            "cellular",
+                            "unknown",
+                            "telephone"
+                        ],
+                        "binCountsReference": [
+                            20447,
+                            9151,
+                            2050,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            8838,
+                            3869,
+                            856,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 0.999928697474948,
+                    "chiSquareTestStatistic": 0.00014261013439576575,
+                    "populationStabilityIndex": 0.00014331793962927118,
+                    "newValuesPercentage": 0.0
+                },
+                "day": {
+                    "type": "NUMERICAL",
+                    "name": "day",
+                    "histogram": {
+                        "binEdges": [
+                            0.0,
+                            2.0,
+                            4.0,
+                            6.0,
+                            8.0,
+                            10.0,
+                            12.0,
+                            14.0,
+                            16.0,
+                            18.0,
+                            20.0,
+                            22.0,
+                            24.0,
+                            26.0,
+                            28.0,
+                            30.0,
+                            32.0,
+                            34.0,
+                            36.0,
+                            38.0,
+                            40.0
+                        ],
+                        "binCountsReference": [
+                            226,
+                            1697,
+                            2365,
+                            2566,
+                            2387,
+                            1397,
+                            2251,
+                            2475,
+                            2342,
+                            2842,
+                            3351,
+                            1292,
+                            917,
+                            1518,
+                            2478,
+                            1544,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            96,
+                            675,
+                            990,
+                            1183,
+                            1016,
+                            606,
+                            937,
+                            1076,
+                            1012,
+                            1223,
+                            1427,
+                            552,
+                            370,
+                            638,
+                            1097,
+                            665,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "nbMissingValuesReference": 0,
+                        "nbMissingValuesCurrent": 0,
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "ksTestStatistic": 0.005651863039329547,
+                    "ksTestPvalue": 0.9214123406641677,
+                    "populationStabilityIndex": 0.00040867063262456946,
+                    "wassersteinDistance": 0.037024742491076464
+                },
+                "month": {
+                    "type": "CATEGORICAL",
+                    "name": "month",
+                    "histogram": {
+                        "binNames": [
+                            "may",
+                            "jul",
+                            "aug",
+                            "jun",
+                            "nov",
+                            "apr",
+                            "feb",
+                            "jan",
+                            "oct",
+                            "sep",
+                            "mar",
+                            "dec"
+                        ],
+                        "binCountsReference": [
+                            9691,
+                            4815,
+                            4338,
+                            3764,
+                            2759,
+                            2046,
+                            1873,
+                            960,
+                            516,
+                            404,
+                            336,
+                            146,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            4075,
+                            2080,
+                            1909,
+                            1577,
+                            1211,
+                            886,
+                            776,
+                            443,
+                            222,
+                            175,
+                            141,
+                            68,
+                            0
+                        ],
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "chiSquareTestPvalue": 1.0,
+                    "chiSquareTestStatistic": 0.0006198943126638728,
+                    "populationStabilityIndex": 0.0006128136685054878,
+                    "newValuesPercentage": 0.0
+                },
+                "campaign": {
+                    "type": "NUMERICAL",
+                    "name": "campaign",
+                    "histogram": {
+                        "binEdges": [
+                            0.0,
+                            5.0,
+                            10.0,
+                            15.0,
+                            20.0,
+                            25.0,
+                            30.0,
+                            35.0,
+                            40.0,
+                            45.0,
+                            50.0,
+                            55.0,
+                            60.0,
+                            65.0,
+                            70.0,
+                            75.0,
+                            80.0,
+                            85.0,
+                            90.0,
+                            95.0,
+                            100.0
+                        ],
+                        "binCountsReference": [
+                            27323,
+                            3293,
+                            605,
+                            230,
+                            91,
+                            57,
+                            29,
+                            11,
+                            3,
+                            1,
+                            3,
+                            1,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "binCountsCurrent": [
+                            11769,
+                            1364,
+                            243,
+                            97,
+                            52,
+                            20,
+                            11,
+                            3,
+                            3,
+                            0,
+                            0,
+                            1,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ],
+                        "nbMissingValuesReference": 0,
+                        "nbMissingValuesCurrent": 0,
+                        "rowCountReference": 31648,
+                        "rowCountCurrent": 13563
+                    },
+                    "ksTestStatistic": 0.008645664966701883,
+                    "ksTestPvalue": 0.47530097191387655,
+                    "populationStabilityIndex": 0.0009547078581164703,
+                    "wassersteinDistance": 0.04440542820915777
+                }
+            }
+        },
+        "driftModelResult": {
+            "currentSampleSize": 13563,
+            "referenceSampleSize": 13563,
+            "driftModelAccuracy": {
+                "lower": 0.48791113548724485,
+                "value": 0.49877119685426397,
+                "upper": 0.5096324177615927,
+                "pvalue": 0.5920360801036354,
+                "confidenceLevel": 0.95
+            },
+            "driftVersusImportance": {
+                "columns": [
+                    "age",
+                    "job",
+                    "marital_status",
+                    "education",
+                    "credit_default",
+                    "balance",
+                    "housing",
+                    "loan",
+                    "contact",
+                    "day",
+                    "month",
+                    "campaign"
+                ],
+                "columnDriftScores": [
+                    0.17416015231929374,
+                    0.08215425967597573,
+                    0.060945747919134846,
+                    0.052381283869234484,
+                    0.0,
+                    0.162045669914477,
+                    0.07021566560896662,
+                    0.020114748546057847,
+                    0.056405381268768526,
+                    0.14717883103537718,
+                    0.07740453904298635,
+                    0.09699372079972779
+                ],
+                "columnImportanceScores": null
+            }
+        },
+        "perColumnSettings": [
+            {
+                "name": "age",
+                "actualHandling": "NUMERICAL",
+                "defaultHandling": "NUMERICAL"
+            },
+            {
+                "name": "job",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "marital_status",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "education",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "credit_default",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "balance",
+                "actualHandling": "NUMERICAL",
+                "defaultHandling": "NUMERICAL"
+            },
+            {
+                "name": "housing",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "loan",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "contact",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "day",
+                "actualHandling": "NUMERICAL",
+                "defaultHandling": "NUMERICAL"
+            },
+            {
+                "name": "month",
+                "actualHandling": "CATEGORICAL",
+                "defaultHandling": "CATEGORICAL"
+            },
+            {
+                "name": "campaign",
+                "actualHandling": "NUMERICAL",
+                "defaultHandling": "NUMERICAL"
+            }
+        ],
+        "referenceSampleSize": 31648,
+        "currentSampleSize": 13563,
+        "predictionDriftResult": {
+            "chiSquareTestPvalue": 0.9827827067096497,
+            "chiSquareTestStatistic": 0.000465711592736591,
+            "ksTestPvalue": null,
+            "ksTestStatistic": null,
+            "populationStabilityIndex": 0.0004561940376706385
+        }
+    }
+}

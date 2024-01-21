@@ -1,0 +1,73 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "numerical_histogram",
+      "showBoxPlot": false,
+      "showHistogram": true,
+      "binningMode": "FIXED_NB",
+      "nbBins": 10,
+      "customBinningBoundaries": [
+        18.0,
+        28.0,
+        38.0,
+        48.0,
+        58.0,
+        68.0,
+        78.0,
+        88.0,
+        98.0
+      ],
+      "column": {
+        "name": "age",
+        "type": "CONTINUOUS"
+      },
+      "id": "ZUGrjzr"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "marketing_campaigns_data",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": false,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1,
+        "seed": 1337
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": true,
+  "name": "Histogram on age ",
+  "dashboardCreationId": "AGwp6E0",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1704920691671,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

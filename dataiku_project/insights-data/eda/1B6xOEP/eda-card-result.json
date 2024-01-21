@@ -1,0 +1,1 @@
+{"type":"univariate_frequency_table","frequencies":{"filters":[{"type":"anum","column":"predicted_value","values":["false"]},{"type":"anum","column":"predicted_value","values":["true"]}],"totalCount":31648,"counts":[27930,3718]},"distinctCount":2,"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

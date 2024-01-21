@@ -1,0 +1,116 @@
+{
+  "algorithm": "SVC_CLASSIFICATION",
+  "svc_grid": {
+    "C": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1.0E-23
+      },
+      "values": [
+        1.0
+      ],
+      "range": {
+        "min": 0.1,
+        "max": 10.0,
+        "nbValues": 3,
+        "scaling": "LOGARITHMIC"
+      }
+    },
+    "gamma": {
+      "values": {
+        "auto": {
+          "enabled": false
+        },
+        "custom": {
+          "enabled": false
+        },
+        "scale": {
+          "enabled": true
+        }
+      }
+    },
+    "custom_gamma": {
+      "gridMode": "EXPLICIT",
+      "randomMode": "RANGE",
+      "limit": {
+        "min": 1.0E-23
+      },
+      "values": [
+        0.001
+      ],
+      "range": {
+        "min": 1.0E-4,
+        "max": 1.0,
+        "nbValues": 3,
+        "scaling": "LOGARITHMIC"
+      }
+    },
+    "kernel": {
+      "values": {
+        "linear": {
+          "enabled": false
+        },
+        "poly": {
+          "enabled": false
+        },
+        "rbf": {
+          "enabled": true
+        },
+        "sigmoid": {
+          "enabled": false
+        }
+      }
+    },
+    "coef0": 0.0,
+    "tol": 0.001,
+    "max_iter": -1,
+    "enabled": true
+  },
+  "max_ensemble_nodes_serialized": 0,
+  "metrics": {
+    "customMetrics": [],
+    "evaluationMetric": "ROC_AUC",
+    "thresholdOptimizationMetric": "F1",
+    "costMatrixWeights": {
+      "tpGain": 1.0,
+      "tnGain": 0.0,
+      "fpGain": -0.3,
+      "fnGain": 0.0
+    },
+    "liftPoint": 0.4,
+    "netUpliftPoint": 0.5,
+    "causalWeighting": "NO_WEIGHTING"
+  },
+  "autoOptimizeThreshold": true,
+  "forcedClassifierThreshold": 0.0,
+  "gridLength": 1,
+  "grid_search_params": {
+    "mode": "KFOLD",
+    "splitRatio": 0.8,
+    "shuffleIterations": 1,
+    "nFolds": 5,
+    "cvSeed": 1337,
+    "stratified": true,
+    "grouped": false,
+    "strategy": "GRID",
+    "bayesianOptimizer": "SCIKIT_OPTIMIZE",
+    "randomized": true,
+    "seed": 1337,
+    "nIter": 0,
+    "nIterRandom": 5,
+    "timeout": 0,
+    "nJobs": 4,
+    "distributed": true,
+    "nContainers": 4,
+    "foldOffset": true
+  },
+  "pluginAlgoCustomGridSearch": false,
+  "computeLearningCurves": false,
+  "skipExpensiveReports": false,
+  "propensityModeling": {
+    "enabled": true,
+    "calibrateProbabilities": false,
+    "calibrationDataRatio": 0.1
+  }
+}

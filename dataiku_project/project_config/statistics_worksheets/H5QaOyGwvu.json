@@ -1,0 +1,1169 @@
+{
+  "dataSpec": {
+    "inputDatasetSmartName": "Exam_1",
+    "datasetSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "ascending": false,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1,
+      "seed": 1337
+    },
+    "autoRefreshSample": true,
+    "refreshTrigger": 0,
+    "containerSelection": {
+      "containerMode": "INHERIT"
+    }
+  },
+  "rootCard": {
+    "type": "worksheet_root",
+    "confidenceLevel": 0.95,
+    "showConfidenceInterval": false,
+    "cards": [
+      {
+        "type": "univariate_header",
+        "showHistogram": true,
+        "showQuantile": false,
+        "showFrequencyTable": true,
+        "showSummary": true,
+        "showBoxPlot": false,
+        "showCumulativeDistributionFunction": false,
+        "xColumns": [
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "job",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "marital",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "education",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "default",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "balance",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "housing",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "loan",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "contact",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "day",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "month",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "duration",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "campaign",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "pdays",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "previous",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "poutcome",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "y",
+            "type": "CATEGORICAL"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "age",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": false,
+                "showHistogram": true,
+                "binningMode": "FIXED_NB",
+                "nbBins": 9,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "id": "QQjg9iM"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "id": "g56VvVL"
+              }
+            ],
+            "id": "zFWadvY"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "job",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 12,
+                "groupOthers": false,
+                "column": {
+                  "name": "job",
+                  "type": "CATEGORICAL"
+                },
+                "id": "49mzlwW"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "job",
+                  "type": "CATEGORICAL"
+                },
+                "id": "AVwcg8I"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "job",
+                  "type": "CATEGORICAL"
+                },
+                "id": "nR6EV5S"
+              }
+            ],
+            "id": "88D2BPG"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "marital",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "marital",
+                  "type": "CATEGORICAL"
+                },
+                "id": "J965emP"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "marital",
+                  "type": "CATEGORICAL"
+                },
+                "id": "XJ4PcLq"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "marital",
+                  "type": "CATEGORICAL"
+                },
+                "id": "7YkhHrM"
+              }
+            ],
+            "id": "WBCxitT"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "education",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "education",
+                  "type": "CATEGORICAL"
+                },
+                "id": "cX6oWDI"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "education",
+                  "type": "CATEGORICAL"
+                },
+                "id": "8m2Kqlv"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "education",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ZgixDj2"
+              }
+            ],
+            "id": "N9UR38g"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "default",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "default",
+                  "type": "CATEGORICAL"
+                },
+                "id": "lTaKzWe"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "default",
+                  "type": "CATEGORICAL"
+                },
+                "id": "TdxsYJw"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "default",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Ql9kA7S"
+              }
+            ],
+            "id": "deMkZmn"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "balance",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": false,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 25,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "balance",
+                  "type": "CONTINUOUS"
+                },
+                "id": "Qfg8DYB"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "balance",
+                  "type": "CONTINUOUS"
+                },
+                "id": "yobo3JF"
+              }
+            ],
+            "id": "kFMYf02"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "housing",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "housing",
+                  "type": "CATEGORICAL"
+                },
+                "id": "CWeaZqZ"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "housing",
+                  "type": "CATEGORICAL"
+                },
+                "id": "rmxBNza"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "housing",
+                  "type": "CATEGORICAL"
+                },
+                "id": "v0iykLa"
+              }
+            ],
+            "id": "gEeMIP1"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "loan",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "loan",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hOYKGKJ"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "loan",
+                  "type": "CATEGORICAL"
+                },
+                "id": "79HqodJ"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "loan",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xWzx6Od"
+              }
+            ],
+            "id": "DU9OiZv"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "contact",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "contact",
+                  "type": "CATEGORICAL"
+                },
+                "id": "rGXL2V0"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "contact",
+                  "type": "CATEGORICAL"
+                },
+                "id": "AfA3AXy"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "contact",
+                  "type": "CATEGORICAL"
+                },
+                "id": "dzAhL4J"
+              }
+            ],
+            "id": "6n08MZP"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "day",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "day",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Tc2DJXM"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "day",
+                  "type": "CATEGORICAL"
+                },
+                "id": "HA3Fm3c"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 31,
+                "column": {
+                  "name": "day",
+                  "type": "CATEGORICAL"
+                },
+                "id": "GIOJFuU"
+              }
+            ],
+            "id": "dSVuZbL"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "month",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "month",
+                  "type": "CATEGORICAL"
+                },
+                "id": "dIuSEyN"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "month",
+                  "type": "CATEGORICAL"
+                },
+                "id": "eSJqSSE"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "month",
+                  "type": "CATEGORICAL"
+                },
+                "id": "lUhJwJu"
+              }
+            ],
+            "id": "nWmWgj1"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "duration",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": false,
+                "showHistogram": true,
+                "binningMode": "CUSTOM",
+                "nbBins": 10,
+                "customBinningBoundaries": [
+                  60.0,
+                  120.0,
+                  180.0,
+                  300.0,
+                  600.0
+                ],
+                "column": {
+                  "name": "duration",
+                  "type": "CONTINUOUS"
+                },
+                "id": "TNPzW0W"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "duration",
+                  "type": "CONTINUOUS"
+                },
+                "id": "EE2XWre"
+              }
+            ],
+            "id": "7mCbOJW"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "campaign",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": false,
+                "showHistogram": true,
+                "binningMode": "CUSTOM",
+                "nbBins": 10,
+                "customBinningBoundaries": [
+                  5.0,
+                  10.0,
+                  20.0,
+                  50.0
+                ],
+                "column": {
+                  "name": "campaign",
+                  "type": "CONTINUOUS"
+                },
+                "id": "gzt377a"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "campaign",
+                  "type": "CONTINUOUS"
+                },
+                "id": "1jUsbQ8"
+              }
+            ],
+            "id": "kjI45z6"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "pdays",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "numerical_histogram",
+                "showBoxPlot": false,
+                "showHistogram": true,
+                "binningMode": "AUTO",
+                "nbBins": 10,
+                "customBinningBoundaries": [],
+                "column": {
+                  "name": "pdays",
+                  "type": "CONTINUOUS"
+                },
+                "id": "v5braUQ"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "pdays",
+                  "type": "CONTINUOUS"
+                },
+                "id": "5K3d3ej"
+              }
+            ],
+            "id": "6iJyR9P"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "previous",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 5,
+                "groupOthers": true,
+                "column": {
+                  "name": "previous",
+                  "type": "CATEGORICAL"
+                },
+                "id": "7JGcmhU"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "previous",
+                  "type": "CATEGORICAL"
+                },
+                "id": "kJWqrOd"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 5,
+                "column": {
+                  "name": "previous",
+                  "type": "CATEGORICAL"
+                },
+                "id": "0U9q3f2"
+              }
+            ],
+            "id": "FZdTKKT"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "poutcome",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "poutcome",
+                  "type": "CATEGORICAL"
+                },
+                "id": "YzmGFxL"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "poutcome",
+                  "type": "CATEGORICAL"
+                },
+                "id": "rfVSSWZ"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "poutcome",
+                  "type": "CATEGORICAL"
+                },
+                "id": "sm9uNPc"
+              }
+            ],
+            "id": "mXHot6n"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "y",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "categorical_histogram",
+                "maxValues": 10,
+                "groupOthers": false,
+                "column": {
+                  "name": "y",
+                  "type": "CATEGORICAL"
+                },
+                "id": "AKqXtpp"
+              },
+              {
+                "type": "univariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "totalCount": true,
+                  "mean": true,
+                  "sum": false,
+                  "median": true,
+                  "std": true,
+                  "variance": false,
+                  "skewness": false,
+                  "kurtosis": false,
+                  "sem": false,
+                  "completeCount": true,
+                  "nbEmpty": true,
+                  "zeroCount": false,
+                  "zeroRatio": false,
+                  "nonZeroRatio": false,
+                  "iqr": false,
+                  "distinctCount": true,
+                  "nbNonEmpty": false,
+                  "min": true,
+                  "max": true,
+                  "range": false,
+                  "mode": true
+                },
+                "column": {
+                  "name": "y",
+                  "type": "CATEGORICAL"
+                },
+                "id": "GiW6LUr"
+              },
+              {
+                "type": "univariate_frequency_table",
+                "maxValues": 10,
+                "column": {
+                  "name": "y",
+                  "type": "CATEGORICAL"
+                },
+                "id": "T5J0i3P"
+              }
+            ],
+            "id": "Dwj3Agk"
+          }
+        ],
+        "id": "2owrDuv"
+      }
+    ],
+    "id": "xxgLnKG"
+  },
+  "name": "Worksheet",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705442273658,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

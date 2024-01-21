@@ -1,0 +1,84 @@
+{
+    "state": "DONE",
+    "preSearchDescription": {
+        "gridLength": 2,
+        "searchStrategy": "GRID",
+        "importantParams": [
+            {
+                "name": "trees",
+                "vals": [
+                    "100"
+                ]
+            },
+            {
+                "name": "depth",
+                "vals": [
+                    "6",
+                    "14"
+                ]
+            },
+            {
+                "name": "min_samples",
+                "vals": [
+                    "1"
+                ]
+            }
+        ]
+    },
+    "resumed": false,
+    "timeOrderingEnabled": false,
+    "sampleWeightsEnabled": false,
+    "modelId": "m1",
+    "startTime": 1705425364754,
+    "endTime": 1705425408382,
+    "preprocessingTime": 635,
+    "trainingTime": 42993,
+    "hyperparamsSearchTime": 26873,
+    "progress": {
+        "stack": [],
+        "top_level_todo": [],
+        "top_level_done": [
+            {
+                "name": "Loading train set",
+                "time": 162
+            },
+            {
+                "name": "Loading test set",
+                "time": 36
+            },
+            {
+                "name": "Collecting statistics",
+                "time": 76
+            },
+            {
+                "name": "Preprocessing train set",
+                "time": 226
+            },
+            {
+                "name": "Preprocessing test set",
+                "time": 60
+            },
+            {
+                "name": "Hyperparameter searching",
+                "time": 26873
+            },
+            {
+                "name": "Fitting model",
+                "time": 2991
+            },
+            {
+                "name": "Saving model",
+                "time": 369
+            },
+            {
+                "name": "Scoring model",
+                "time": 2724
+            },
+            {
+                "name": "Preparing explainability",
+                "time": 10028
+            }
+        ]
+    },
+    "pythonVersion": "3.6.8"
+}

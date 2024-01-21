@@ -1,0 +1,88 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "contact": {
+                "impact": 0.5808248604383783,
+                "rank": 1,
+                "feature": "contact",
+                "positiveCategoricalValue": "cellular",
+                "negativeCategoricalValue": "unknown",
+                "infoGain": 0.6051093749743717,
+                "type": "CATEGORICAL"
+            },
+            "month": {
+                "impact": 0.3201066792343325,
+                "rank": 2,
+                "feature": "month",
+                "positiveCategoricalValue": "jun",
+                "negativeCategoricalValue": "may",
+                "infoGain": 0.5865461347772338,
+                "type": "CATEGORICAL"
+            },
+            "housing": {
+                "impact": 0.24629448066107007,
+                "rank": 3,
+                "feature": "housing",
+                "positiveCategoricalValue": "false",
+                "negativeCategoricalValue": "true",
+                "infoGain": 0.6899437584583995,
+                "type": "CATEGORICAL"
+            },
+            "campaign": {
+                "impact": 0.163125058112518,
+                "rank": 4,
+                "feature": "campaign",
+                "correlation": -0.9004979393958857,
+                "type": "NUMERICAL"
+            },
+            "marital_status": {
+                "impact": 0.14807884995089188,
+                "rank": 5,
+                "feature": "marital_status",
+                "positiveCategoricalValue": "single",
+                "negativeCategoricalValue": "married",
+                "infoGain": 0.6607059326659308,
+                "type": "CATEGORICAL"
+            },
+            "job": {
+                "impact": 0.1181520298391129,
+                "rank": 6,
+                "feature": "job",
+                "positiveCategoricalValue": "admin.",
+                "negativeCategoricalValue": "management",
+                "infoGain": 0.5730569171314204,
+                "type": "CATEGORICAL"
+            },
+            "education": {
+                "impact": 0.10554623780963607,
+                "rank": 8,
+                "feature": "education",
+                "positiveCategoricalValue": "tertiary",
+                "negativeCategoricalValue": "secondary",
+                "infoGain": 0.6217418069760875,
+                "type": "CATEGORICAL"
+            },
+            "balance": {
+                "impact": 0.03222246665133626,
+                "rank": 9,
+                "feature": "balance",
+                "correlation": 0.9987461933095504,
+                "type": "NUMERICAL"
+            },
+            "day": {
+                "impact": 0.024739108479545177,
+                "rank": 10,
+                "feature": "day",
+                "correlation": -0.982833668929327,
+                "type": "NUMERICAL"
+            },
+            "age": {
+                "impact": 0.020750908883094405,
+                "rank": 11,
+                "feature": "age",
+                "correlation": 0.9862970175290208,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

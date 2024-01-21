@@ -1,0 +1,85 @@
+{
+  "state": "DONE",
+  "preSearchDescription": {
+    "gridLength": 5,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "penalty",
+        "vals": [
+          "l2"
+        ]
+      },
+      {
+        "name": "C",
+        "vals": [
+          "0.01",
+          "0.1",
+          "1.0",
+          "10.0",
+          "100.0"
+        ]
+      }
+    ]
+  },
+  "postSearchDescription": {
+    "importantParams": [
+      {
+        "name": "C",
+        "val": "1.0"
+      },
+      {
+        "name": "penalty",
+        "val": "l2"
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [],
+    "stack": [],
+    "top_level_done": [
+      {
+        "name": "Loading source dataset",
+        "time": 176
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 88
+      },
+      {
+        "name": "Preprocessing input",
+        "time": 281
+      },
+      {
+        "name": "Fitting global model",
+        "time": 39279
+      },
+      {
+        "name": "Saving model",
+        "time": 12
+      },
+      {
+        "name": "Computing global stats",
+        "time": 9744
+      },
+      {
+        "name": "Fitting folds",
+        "time": 7592
+      },
+      {
+        "name": "Preparing explainability",
+        "time": 8585
+      }
+    ]
+  },
+  "startTime": 1705425516365,
+  "endTime": 1705425582376,
+  "preprocessingTime": 621,
+  "trainingTime": 65390,
+  "hyperparamsSearchTime": 0,
+  "pythonVersion": "3.6.8"
+}

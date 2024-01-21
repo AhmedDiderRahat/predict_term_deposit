@@ -1,0 +1,38 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "duration": {
+                "impact": 0.7239487456802356,
+                "rank": 1,
+                "feature": "duration",
+                "correlation": 0.8938863387417997,
+                "type": "NUMERICAL"
+            },
+            "housing": {
+                "impact": 0.34142108727448855,
+                "rank": 2,
+                "feature": "housing",
+                "positiveCategoricalValue": "no",
+                "negativeCategoricalValue": "yes",
+                "infoGain": 0.6874474544541733,
+                "type": "CATEGORICAL"
+            },
+            "campaign": {
+                "impact": 0.14674907013518057,
+                "rank": 5,
+                "feature": "campaign",
+                "correlation": -0.8263322794852631,
+                "type": "NUMERICAL"
+            },
+            "education": {
+                "impact": 0.09226775263844939,
+                "rank": 9,
+                "feature": "education",
+                "positiveCategoricalValue": "tertiary",
+                "negativeCategoricalValue": "secondary",
+                "infoGain": 0.5253327416033469,
+                "type": "CATEGORICAL"
+            }
+        }
+    }
+}

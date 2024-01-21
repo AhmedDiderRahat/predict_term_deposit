@@ -1,0 +1,46 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "sessionName": "updated_model",
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.225,
+  "description": "",
+  "name": "SVM (updated_model) - v1",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "SVC_CLASSIFICATION"
+    },
+    {
+      "key": "model:session-name",
+      "value": "updated_model"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-18T20:02:48.612+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-18T20:02:48.612+0000"
+    },
+    {
+      "key": "model:name",
+      "value": "SVM (updated_model) - v1"
+    }
+  ]
+}

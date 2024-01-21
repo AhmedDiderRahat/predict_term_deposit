@@ -1,0 +1,92 @@
+{
+  "state": "DONE",
+  "preSearchDescription": {
+    "gridLength": 2,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "trees",
+        "vals": [
+          "100"
+        ]
+      },
+      {
+        "name": "depth",
+        "vals": [
+          "6",
+          "14"
+        ]
+      },
+      {
+        "name": "min_samples",
+        "vals": [
+          "1"
+        ]
+      }
+    ]
+  },
+  "postSearchDescription": {
+    "importantParams": [
+      {
+        "name": "trees",
+        "val": "100"
+      },
+      {
+        "name": "depth",
+        "val": "14"
+      },
+      {
+        "name": "min_samples",
+        "val": "1"
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [],
+    "stack": [],
+    "top_level_done": [
+      {
+        "name": "Loading source dataset",
+        "time": 120
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 73
+      },
+      {
+        "name": "Preprocessing input",
+        "time": 196
+      },
+      {
+        "name": "Fitting global model",
+        "time": 47459
+      },
+      {
+        "name": "Saving model",
+        "time": 360
+      },
+      {
+        "name": "Computing global stats",
+        "time": 2096
+      },
+      {
+        "name": "Fitting folds",
+        "time": 16770
+      },
+      {
+        "name": "Preparing explainability",
+        "time": 8593
+      }
+    ]
+  },
+  "startTime": 1705605596750,
+  "endTime": 1705605672543,
+  "preprocessingTime": 441,
+  "trainingTime": 75352,
+  "hyperparamsSearchTime": 0,
+  "pythonVersion": "3.6.8"
+}

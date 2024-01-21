@@ -1,0 +1,46 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "sessionName": "3_model",
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.525,
+  "description": "",
+  "name": "Random forest (3_model)",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "test_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "test_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "RANDOM_FOREST_CLASSIFICATION"
+    },
+    {
+      "key": "model:name",
+      "value": "Random forest (3_model)"
+    },
+    {
+      "key": "model:session-name",
+      "value": "3_model"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-16T17:05:22.481+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-16T17:05:22.481+0000"
+    }
+  ]
+}

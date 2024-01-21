@@ -1,0 +1,46 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "sessionName": "model",
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.25,
+  "description": "",
+  "name": "SVM (model)",
+  "labels": [
+    {
+      "key": "trainDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "testDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "evaluationDataset:dataset-name",
+      "value": "train_data"
+    },
+    {
+      "key": "model:algorithm",
+      "value": "SVC_CLASSIFICATION"
+    },
+    {
+      "key": "model:name",
+      "value": "SVM (model)"
+    },
+    {
+      "key": "model:session-name",
+      "value": "model"
+    },
+    {
+      "key": "model:date",
+      "value": "2024-01-16T17:59:30.962+0000"
+    },
+    {
+      "key": "evaluation:date",
+      "value": "2024-01-16T17:59:30.962+0000"
+    }
+  ]
+}

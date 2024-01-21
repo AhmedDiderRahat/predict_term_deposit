@@ -1,0 +1,70 @@
+{
+  "type": "eda",
+  "params": {
+    "card": {
+      "type": "bivariate_frequency_table",
+      "xBinningMode": "AUTO",
+      "yBinningMode": "AUTO",
+      "maxValuesX": 5,
+      "maxValuesY": 5,
+      "groupWithOthersX": true,
+      "groupWithOthersY": true,
+      "xCustomBinningBoundaries": [],
+      "yCustomBinningBoundaries": [],
+      "xColumn": {
+        "name": "y",
+        "type": "CATEGORICAL"
+      },
+      "yColumn": {
+        "name": "prediction",
+        "type": "CATEGORICAL"
+      },
+      "id": "Ml1lvN8"
+    },
+    "dataSpec": {
+      "inputDatasetSmartName": "logistic_reg_evl",
+      "datasetSelection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": false,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1,
+        "seed": 1337
+      },
+      "autoRefreshSample": true,
+      "refreshTrigger": 0,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
+    }
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": true,
+  "name": "Frequency table on y \u0026 prediction ",
+  "dashboardCreationId": "UoAJxKD",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705349548110,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

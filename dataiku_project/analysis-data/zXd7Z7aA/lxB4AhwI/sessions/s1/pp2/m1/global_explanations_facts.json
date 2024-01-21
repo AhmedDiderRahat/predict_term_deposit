@@ -1,0 +1,77 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "duration": {
+                "impact": 0.8957667323407372,
+                "rank": 1,
+                "feature": "duration",
+                "correlation": 0.9948488907286067,
+                "type": "NUMERICAL"
+            },
+            "housing": {
+                "impact": 0.438460557735262,
+                "rank": 2,
+                "feature": "housing",
+                "positiveCategoricalValue": "no",
+                "negativeCategoricalValue": "yes",
+                "infoGain": 0.6874474544541733,
+                "type": "CATEGORICAL"
+            },
+            "campaign": {
+                "impact": 0.20900703147667954,
+                "rank": 4,
+                "feature": "campaign",
+                "correlation": -0.8793232069754451,
+                "type": "NUMERICAL"
+            },
+            "job": {
+                "impact": 0.17742967267413132,
+                "rank": 5,
+                "feature": "job",
+                "positiveCategoricalValue": "technician",
+                "negativeCategoricalValue": "blue-collar",
+                "infoGain": 0.6494857185423186,
+                "type": "CATEGORICAL"
+            },
+            "education": {
+                "impact": 0.15889976883053084,
+                "rank": 7,
+                "feature": "education",
+                "positiveCategoricalValue": "tertiary",
+                "negativeCategoricalValue": "secondary",
+                "infoGain": 0.6108643020548935,
+                "type": "CATEGORICAL"
+            },
+            "marital": {
+                "impact": 0.12055460122865459,
+                "rank": 8,
+                "feature": "marital",
+                "positiveCategoricalValue": "single",
+                "negativeCategoricalValue": "married",
+                "infoGain": 0.5730569171314204,
+                "type": "CATEGORICAL"
+            },
+            "day": {
+                "impact": 0.06932532597372655,
+                "rank": 9,
+                "feature": "day",
+                "correlation": -0.9727430847881627,
+                "type": "NUMERICAL"
+            },
+            "balance": {
+                "impact": 0.030230086726262612,
+                "rank": 10,
+                "feature": "balance",
+                "correlation": 0.9689402381326322,
+                "type": "NUMERICAL"
+            },
+            "age": {
+                "impact": 0.022276863308863058,
+                "rank": 11,
+                "feature": "age",
+                "correlation": 0.9798939433494878,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

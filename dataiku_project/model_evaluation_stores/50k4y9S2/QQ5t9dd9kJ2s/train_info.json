@@ -1,0 +1,91 @@
+{
+  "state": "DONE",
+  "preSearchDescription": {
+    "gridLength": 1,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "kernel",
+        "vals": [
+          "rbf"
+        ]
+      },
+      {
+        "name": "C",
+        "vals": [
+          "1.0"
+        ]
+      },
+      {
+        "name": "Gamma",
+        "vals": [
+          "scale"
+        ]
+      }
+    ]
+  },
+  "postSearchDescription": {
+    "importantParams": [
+      {
+        "name": "kernel",
+        "val": "rbf"
+      },
+      {
+        "name": "C",
+        "val": "1.0"
+      },
+      {
+        "name": "gamma",
+        "val": "scale"
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [],
+    "stack": [],
+    "top_level_done": [
+      {
+        "name": "Loading source dataset",
+        "time": 112
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 66
+      },
+      {
+        "name": "Preprocessing input",
+        "time": 189
+      },
+      {
+        "name": "Fitting global model",
+        "time": 585649
+      },
+      {
+        "name": "Saving model",
+        "time": 205
+      },
+      {
+        "name": "Computing global stats",
+        "time": 7
+      },
+      {
+        "name": "Fitting folds",
+        "time": 1869310
+      },
+      {
+        "name": "Preparing explainability",
+        "time": 60033
+      }
+    ]
+  },
+  "startTime": 1705605652921,
+  "endTime": 1705608168612,
+  "preprocessingTime": 417,
+  "trainingTime": 2515274,
+  "hyperparamsSearchTime": 0,
+  "pythonVersion": "3.6.8"
+}

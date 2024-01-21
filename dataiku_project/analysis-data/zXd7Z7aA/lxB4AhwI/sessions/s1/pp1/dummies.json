@@ -1,0 +1,76 @@
+{
+    "details": {
+        "loan": {
+            "levels": [
+                "no",
+                "yes"
+            ],
+            "with_others": true
+        },
+        "education": {
+            "levels": [
+                "secondary",
+                "tertiary",
+                "primary",
+                "unknown"
+            ],
+            "with_others": true
+        },
+        "housing": {
+            "levels": [
+                "yes",
+                "no"
+            ],
+            "with_others": true
+        },
+        "marital": {
+            "levels": [
+                "married",
+                "single",
+                "divorced"
+            ],
+            "with_others": true
+        },
+        "default": {
+            "levels": [
+                "no",
+                "yes"
+            ],
+            "with_others": true
+        },
+        "month": {
+            "levels": [
+                "may",
+                "jul",
+                "aug",
+                "jun",
+                "nov",
+                "apr",
+                "feb",
+                "jan",
+                "oct",
+                "sep",
+                "mar",
+                "dec"
+            ],
+            "with_others": true
+        },
+        "job": {
+            "levels": [
+                "blue-collar",
+                "management",
+                "technician",
+                "admin.",
+                "services",
+                "retired",
+                "self-employed",
+                "entrepreneur",
+                "unemployed",
+                "housemaid",
+                "student",
+                "unknown"
+            ],
+            "with_others": true
+        }
+    }
+}

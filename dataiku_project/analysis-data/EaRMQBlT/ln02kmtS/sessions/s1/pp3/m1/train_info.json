@@ -1,0 +1,76 @@
+{
+  "state": "ABORTED",
+  "preSearchDescription": {
+    "gridLength": 1,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "kernel",
+        "vals": [
+          "rbf"
+        ]
+      },
+      {
+        "name": "C",
+        "vals": [
+          "1.0"
+        ]
+      },
+      {
+        "name": "Gamma",
+        "vals": [
+          "scale"
+        ]
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [
+      "Saving model",
+      "Scoring model",
+      "Preparing explainability"
+    ],
+    "stack": [
+      {
+        "name": "Fitting model",
+        "target": 0.0,
+        "cur": 0.0,
+        "important": false,
+        "depth": 0,
+        "startTimestamp": 1705424727381,
+        "msSinceStart": 0
+      }
+    ],
+    "top_level_done": [
+      {
+        "name": "Loading train set",
+        "time": 162
+      },
+      {
+        "name": "Loading test set",
+        "time": 55
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 79
+      },
+      {
+        "name": "Preprocessing train set",
+        "time": 272
+      },
+      {
+        "name": "Preprocessing test set",
+        "time": 129
+      }
+    ]
+  },
+  "startTime": 1705424726620,
+  "endTime": 0,
+  "preprocessingTime": 0,
+  "trainingTime": 0,
+  "hyperparamsSearchTime": 0
+}

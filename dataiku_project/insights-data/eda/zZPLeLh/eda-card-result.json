@@ -1,0 +1,1 @@
+{"type":"categorical_histogram","histogram":{"filters":[{"type":"anum","column":"contact","values":["cellular"]},{"type":"anum","column":"contact","values":["unknown"]},{"type":"anum","column":"contact","values":["telephone"]}],"totalCount":45211,"counts":[29285,13020,2906]},"computationCount":-1,"notComputedCount":-1,"failedComputationsCount":-1}

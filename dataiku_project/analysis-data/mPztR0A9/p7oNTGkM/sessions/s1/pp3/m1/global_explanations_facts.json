@@ -1,0 +1,20 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "duration": {
+                "impact": 0.9923358421925618,
+                "rank": 1,
+                "feature": "duration",
+                "correlation": 0.8594083477899699,
+                "type": "NUMERICAL"
+            },
+            "campaign": {
+                "impact": 0.15736066719334202,
+                "rank": 6,
+                "feature": "campaign",
+                "correlation": -0.7837158685517001,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

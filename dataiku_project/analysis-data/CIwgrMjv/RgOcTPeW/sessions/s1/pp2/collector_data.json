@@ -1,0 +1,242 @@
+{
+    "per_feature": {
+        "loan": {
+            "stats": {
+                "mostFrequentValue": "false",
+                "leastFrequentValue": "true"
+            },
+            "dropped_modality": "true",
+            "category_possible_values": [
+                "false"
+            ],
+            "category_possible_counts": [
+                21281
+            ]
+        },
+        "education": {
+            "stats": {
+                "mostFrequentValue": "secondary",
+                "leastFrequentValue": "unknown"
+            },
+            "dropped_modality": "unknown",
+            "category_possible_values": [
+                "secondary",
+                "tertiary",
+                "primary"
+            ],
+            "category_possible_counts": [
+                12984,
+                7446,
+                3860
+            ]
+        },
+        "previous": {
+            "stats": {}
+        },
+        "housing": {
+            "stats": {
+                "mostFrequentValue": "true",
+                "leastFrequentValue": "false"
+            },
+            "dropped_modality": "false",
+            "category_possible_values": [
+                "true"
+            ],
+            "category_possible_counts": [
+                14099
+            ]
+        },
+        "poutcome": {
+            "stats": {}
+        },
+        "duration": {
+            "stats": {
+                "min": 0.0,
+                "average": 260.37030453845244,
+                "median": 180.0,
+                "max": 4918.0,
+                "p99": 1297.8400000000001,
+                "std": 262.8888606713018
+            },
+            "missing_impute_with_value": 260.37030453845244
+        },
+        "marital_status": {
+            "stats": {
+                "mostFrequentValue": "married",
+                "leastFrequentValue": "divorced"
+            },
+            "dropped_modality": "divorced",
+            "category_possible_values": [
+                "married",
+                "single"
+            ],
+            "category_possible_counts": [
+                15330,
+                7121
+            ]
+        },
+        "credit_default": {
+            "stats": {
+                "mostFrequentValue": "false",
+                "leastFrequentValue": "true"
+            },
+            "dropped_modality": "true",
+            "category_possible_values": [
+                "false"
+            ],
+            "category_possible_counts": [
+                24873
+            ]
+        },
+        "balance": {
+            "stats": {
+                "min": -8019.0,
+                "average": 1374.5541335861278,
+                "median": 453.0,
+                "max": 102127.0,
+                "p99": 13201.120000000003,
+                "std": 3149.6584340006784
+            },
+            "missing_impute_with_value": 1374.5541335861278
+        },
+        "month": {
+            "stats": {
+                "mostFrequentValue": "may",
+                "leastFrequentValue": "dec"
+            },
+            "dropped_modality": "dec",
+            "category_possible_values": [
+                "may",
+                "jul",
+                "aug",
+                "jun",
+                "nov",
+                "apr",
+                "feb",
+                "jan",
+                "oct",
+                "sep",
+                "mar"
+            ],
+            "category_possible_counts": [
+                7741,
+                3815,
+                3476,
+                2993,
+                2221,
+                1630,
+                1528,
+                795,
+                411,
+                314,
+                270
+            ]
+        },
+        "contact": {
+            "stats": {
+                "mostFrequentValue": "cellular",
+                "leastFrequentValue": "telephone"
+            },
+            "dropped_modality": "telephone",
+            "category_possible_values": [
+                "cellular",
+                "unknown"
+            ],
+            "category_possible_counts": [
+                16359,
+                7331
+            ]
+        },
+        "predicted_value": {
+            "stats": {}
+        },
+        "campaign": {
+            "stats": {
+                "min": 1.0,
+                "average": 2.7805032191807877,
+                "median": 2.0,
+                "max": 55.0,
+                "p99": 16.840000000000146,
+                "std": 3.1355285989893473
+            },
+            "missing_impute_with_value": 2.7805032191807877
+        },
+        "job": {
+            "stats": {
+                "mostFrequentValue": "blue-collar",
+                "leastFrequentValue": "unknown"
+            },
+            "dropped_modality": "unknown",
+            "category_possible_values": [
+                "blue-collar",
+                "management",
+                "technician",
+                "admin.",
+                "services",
+                "retired",
+                "self-employed",
+                "entrepreneur",
+                "unemployed",
+                "housemaid",
+                "student"
+            ],
+            "category_possible_counts": [
+                5441,
+                5272,
+                4250,
+                2892,
+                2391,
+                1276,
+                895,
+                821,
+                726,
+                687,
+                508
+            ]
+        },
+        "day": {
+            "stats": {
+                "min": 1.0,
+                "average": 15.842200892680808,
+                "median": 16.0,
+                "max": 31.0,
+                "p99": 31.0,
+                "std": 8.339969268404888
+            },
+            "missing_impute_with_value": 15.842200892680808
+        },
+        "age": {
+            "stats": {
+                "min": 18.0,
+                "average": 40.988624244578745,
+                "median": 39.0,
+                "max": 94.0,
+                "p99": 71.0,
+                "std": 10.657368531699497
+            },
+            "missing_impute_with_value": 40.988624244578745
+        },
+        "pdays": {
+            "stats": {}
+        }
+    },
+    "feature_order": [
+        "loan",
+        "education",
+        "previous",
+        "housing",
+        "poutcome",
+        "duration",
+        "marital_status",
+        "credit_default",
+        "balance",
+        "month",
+        "contact",
+        "predicted_value",
+        "campaign",
+        "job",
+        "day",
+        "age",
+        "pdays"
+    ]
+}

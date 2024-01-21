@@ -1,0 +1,406 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "marketing_campaigns_data",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": true
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 100000,
+        "targetRatio": 0.02,
+        "ascending": true,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "pie",
+      "variant": "normal",
+      "name": "Count by job",
+      "userEditedName": false,
+      "displayWithEChartsByDefault": true,
+      "genericDimension0": [
+        {
+          "column": "job",
+          "type": "ALPHANUM",
+          "numParams": {
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 20,
+          "generateOthersCategory": true,
+          "forceLastPositionOthers": false,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Count of records, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "AGGREGATION",
+            "measureIdx": 0,
+            "label": "Count of records, descending"
+          },
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT"
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "function": "COUNT",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "PERCENTAGE",
+          "computeModeDim": 0,
+          "multiplier": "Auto",
+          "digitGrouping": "DEFAULT",
+          "prefix": "",
+          "suffix": "",
+          "showDisplayLabel": true,
+          "labelPosition": "BOTTOM",
+          "colorRules": []
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaDimensionPair": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "geoLayers": [
+        {
+          "geometry": [],
+          "colorOptions": {
+            "ccScaleMode": "NORMAL",
+            "paletteType": "CONTINUOUS",
+            "quantizationMode": "NONE",
+            "numQuantizeSteps": 5,
+            "paletteMiddleValue": 0.0,
+            "heatDensityMapIntensity": 0.5,
+            "heatDensityMapRadius": 0.5,
+            "singleColor": "#2678B1",
+            "transparency": 0.75,
+            "colorPalette": "default",
+            "customPalette": {
+              "id": "__dku_custom__",
+              "name": "Custom Palette",
+              "colors": [],
+              "values": [],
+              "fixedValues": false
+            },
+            "customColors": {}
+          },
+          "uaColor": []
+        }
+      ],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "xAxisFormatting": {
+        "displayAxis": true,
+        "showAxisTitle": true,
+        "axisTitleFormatting": {
+          "fontSize": 15,
+          "fontColor": "#333",
+          "hasBackground": false
+        },
+        "axisValuesFormatting": {
+          "numberFormatting": {
+            "multiplier": "Auto",
+            "digitGrouping": "DEFAULT",
+            "prefix": "",
+            "suffix": ""
+          },
+          "axisTicksFormatting": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          }
+        },
+        "ticksConfig": {
+          "mode": "INTERVAL"
+        },
+        "customExtent": {
+          "editMode": "AUTO",
+          "manualExtent": [
+            null,
+            null
+          ]
+        },
+        "isLogScale": false
+      },
+      "yAxesFormatting": [
+        {
+          "id": "y_left_0",
+          "displayAxis": true,
+          "showAxisTitle": true,
+          "axisTitleFormatting": {
+            "fontSize": 15,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "axisValuesFormatting": {
+            "numberFormatting": {
+              "multiplier": "Auto",
+              "digitGrouping": "DEFAULT",
+              "prefix": "",
+              "suffix": ""
+            },
+            "axisTicksFormatting": {
+              "fontSize": 12,
+              "fontColor": "#333",
+              "hasBackground": false
+            }
+          },
+          "ticksConfig": {
+            "mode": "INTERVAL"
+          },
+          "customExtent": {
+            "editMode": "AUTO",
+            "manualExtent": [
+              null,
+              null
+            ]
+          },
+          "isLogScale": false
+        }
+      ],
+      "radialAxisFormatting": {
+        "showAxisTitle": false,
+        "axisTitleFormatting": {
+          "fontSize": 15,
+          "fontColor": "#333",
+          "hasBackground": false
+        },
+        "ticksConfig": {
+          "mode": "INTERVAL"
+        },
+        "customExtent": {},
+        "isLogScale": false
+      },
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showInChartValues": true,
+      "showInChartTotalValues": true,
+      "showInChartLabels": true,
+      "strokeWidth": 2,
+      "fillOpacity": 0.6,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "valuesInChartDisplayOptions": {
+        "textFormatting": {
+          "fontSize": 11,
+          "fontColor": "AUTO",
+          "hasBackground": true,
+          "backgroundColor": "#D9D9D9BF"
+        }
+      },
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "ccScaleMode": "NORMAL",
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0,
+        "heatDensityMapIntensity": 0.5,
+        "heatDensityMapRadius": 0.5,
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "Dark2",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "customColors": {}
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 59.0
+      },
+      "zoomOptions": {
+        "scale": 1.0,
+        "translate": [
+          0.0,
+          0.0
+        ],
+        "enabled": true,
+        "persisted": true
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false,
+        "regression": {
+          "show": false,
+          "displayFormula": false,
+          "type": "LINEAR",
+          "labelPosition": "INSIDE_END",
+          "lineColor": "#000",
+          "lineSize": 1,
+          "textFormatting": {
+            "fontSize": 11,
+            "fontColor": "#333",
+            "hasBackground": false,
+            "backgroundColor": "#D9D9D9BF"
+          }
+        },
+        "numberOfRecords": 100000.0
+      },
+      "scatterMPOptions": {
+        "pairColorOptions": {
+          "singleColor": "#659a88",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "customColors": {}
+        },
+        "numberOfRecords": 100000.0
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.6,
+        "gridLatDeg": 0.6
+      },
+      "radarOptions": {
+        "filled": false,
+        "polygonsSource": "MEASURES",
+        "lineStyle": {
+          "width": 2.0,
+          "type": "SOLID"
+        }
+      },
+      "sankeyOptions": {
+        "curveness": 0.5,
+        "linkColorVariant": "GRADIENT",
+        "nodeLabelFormatting": {
+          "fontSize": 11,
+          "fontColor": "AUTO",
+          "hasBackground": false,
+          "backgroundColor": "#D9D9D9BF"
+        }
+      },
+      "thumbnailData": "data:image/png;base64,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\u003d",
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT",
+      "legendFormatting": {
+        "fontSize": 11,
+        "fontColor": "#333",
+        "hasBackground": false
+      },
+      "pivotTableOptions": {
+        "measureDisplayMode": "ROWS",
+        "displayTotals": {
+          "subTotals": {
+            "rows": true,
+            "columns": true
+          },
+          "grandTotal": {
+            "row": true,
+            "column": true
+          }
+        },
+        "tableFormatting": {
+          "rowHeaders": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "columnHeaders": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          },
+          "values": {
+            "fontSize": 12,
+            "fontColor": "#333",
+            "hasBackground": false
+          }
+        }
+      }
+    },
+    "customMeasures": []
+  },
+  "owner": "adrahat.neub@gmail.com",
+  "listed": false,
+  "name": "Count by job on marketing_campaigns_data",
+  "dashboardCreationId": "AGwp6E0",
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "adrahat.neub@gmail.com"
+    },
+    "lastModifiedOn": 1705335374046,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
